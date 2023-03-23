@@ -1,0 +1,44 @@
+.table {
+	background-color: rgb(43, 43, 43);
+	margin: 20px 20px 0 20px;
+	height: 210px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	z-index: 5;
+}
+h3 {
+	color: gray;
+}
+.screen {
+	background-color: rgb(92, 92, 92);
+	color: orange;
+	padding: 10px 20px ;
+	margin-top: 10px;
+	z-index: 5;
+	width: 88%;
+    height: 160px;
+    overflow: hidden;
+}
+.screen p {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+    margin-top: 2px;
+}
+.screen p.time{
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+.pipe {
+	width: 30px;
+	background-color: rgb(32, 32, 32);
+	height: 80vh;
+	margin-left: 50px;
+	position: absolute;
+	top: 20px;
+	z-index: 1;
+}
