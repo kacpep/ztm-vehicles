@@ -24,9 +24,7 @@ function Table() {
 		}, 5000);
 	}, [location]);
 
-	function str_pad_left(string, pad, length) {
-  return (new Array(length + 1).join(pad) + string).slice(-length);
-}
+
 
 
 	return (
@@ -41,7 +39,7 @@ function Table() {
 								<span>
 									{Math.floor(bus.timeTo / 60) > 60
 										? Math.floor(Math.floor(bus.timeTo / 60) / 60) + "h " + Math.floor(bus.timeTo / 60) % 60+"min"
-										: Math.floor(bus.timeTo / 60) + "min"}
+										: bus.timeTo >60? Math.floor(bus.timeTo / 60) + "min":"<1min"}
 								</span>
 							</p>
 						))
