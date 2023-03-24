@@ -1,0 +1,1675 @@
+[
+	[
+		392,
+		"Albigowa",
+		[
+			[1569, "Albigowa Sady 01 nż", "135G", 1],
+			[1574, "Albigowa Sady 18 nż", "142G", 1],
+			[1565, "Albigowa Skrzyż. Młyn 25 nż", "137G", 1],
+			[1562, "Albigowa Skrzyż. Młyn 56", "146G", 1]
+		]
+	],
+	[
+		129,
+		"Architektów",
+		[
+			[1051, "Architektów 01 nż", "12J", 0],
+			[1052, "Architektów 02 nż", "13J", 0]
+		]
+	],
+	[
+		50,
+		"Armii Krajowej",
+		[
+			[908, "Armii Krajowej / Krzyżanowskiego 03 nż", "22N", 0],
+			[193, "Armii Krajowej / Mieszka I 05 nż", "6N", 0],
+			[222, "Armii Krajowej / Paderewskiego 08 nż", "31N", 0],
+			[192, "Armii Krajowej / Powst. Listopadowych 06", "5N", 0],
+			[1019, "Armii Krajowej hotel 01 nż", "24N", 0],
+			[191, "Armii Krajowej hotel 04 nż", "21N", 0],
+			[243, "Armii Krajowej kościół 09 nż", "16N", 0],
+			[1071, "Armii Krajowej Park Papieski 02 nż", "167N", 0],
+			[1070, "Armii Krajowej Skarbiec 07 nż", "166N", 0],
+			[244, "Armii Krajowej szpital 10 nż", "15N", 0]
+		]
+	],
+	[346, "Baligrodzka", [[1275, "Baligrodzka 01", "89G", 0]]],
+	[
+		353,
+		"Bałtycka",
+		[
+			[1315, "Bałtycka 01 nż", "30D", 0],
+			[1316, "Bałtycka 02 nż", "135D", 0]
+		]
+	],
+	[
+		137,
+		"Bardowskiego",
+		[
+			[1143, "Bardowskiego 01", "1H", 0],
+			[959, "Bardowskiego 03", "3H", 0],
+			[10, "Bardowskiego 04", "4H", 0]
+		]
+	],
+	[
+		30,
+		"Batalionów Chłopskich",
+		[
+			[89, "Bat. Chłopskich / Dąbrowskiego 02 nż", "1F", 0],
+			[91, "Bat. Chłopskich / Langiewicza 04 nż", "3F", 0],
+			[90, "Bat. Chłopskich / Podkarpacka 01 nż", "2F", 0],
+			[92, "Bat. Chłopskich / Przemysłowa 03 nż", "4F", 0],
+			[88, "Bat. Chłopskich / Staroniwska 05 nż", "16F", 0]
+		]
+	],
+	[
+		105,
+		"Beskidzka",
+		[
+			[681, "Beskidzka / Karkonoska 03 nż", "36B", 0],
+			[680, "Beskidzka / Karkonoska 04 nż", "35B", 0],
+			[683, "Beskidzka 05 nż", "38B", 0],
+			[682, "Beskidzka 06 nż", "37B", 0],
+			[685, "Beskidzka granica 07", "104B", 0],
+			[1401, "Beskidzka granica 08 nż", "93B", 0],
+			[679, "Beskidzka szkoła 01", "24B", 0],
+			[678, "Beskidzka szkoła 02", "25B", 0]
+		]
+	],
+	[
+		355,
+		"Bieszczadzka",
+		[
+			[1385, "Bieszczadzka 01 nż", "114B", 0],
+			[1384, "Bieszczadzka 02 nż", "103B", 0]
+		]
+	],
+	[
+		390,
+		"Biznesowa",
+		[
+			[1545, "Biznesowa / Innowacyjna 03 nż", "112S", 0],
+			[1549, "Biznesowa / Innowacyjna 04 nż", "113S", 0],
+			[1548, "Biznesowa / Kapitałowa 01 nż", "110S", 0],
+			[1550, "Biznesowa / Kapitałowa 02 nż", "111S", 0],
+			[1544, "Biznesowa 06", "115S", 0]
+		]
+	],
+	[
+		29,
+		"Bł. Karoliny",
+		[
+			[1018, "Bł. Karoliny / Nowosądecka 05", "74G", 0],
+			[901, "Bł. Karoliny / Sanocka 03", "70G", 0],
+			[902, "Bł. Karoliny / Sanocka 04", "67G", 0],
+			[87, "Bł. Karoliny / Strzyżowska 01", "58G", 0],
+			[86, "Bł. Karoliny / Strzyżowska 02", "65G", 0],
+			[1017, "Bł. Karoliny 09", "88G", 0],
+			[1081, "Bł. Karoliny przedszkole 06", "79G", 0],
+			[1080, "Bł. Karoliny przedszkole 07", "81G", 0]
+		]
+	],
+	[
+		363,
+		"Błękitne Wzgórze",
+		[
+			[741, "Błękitne Wzgórze / Leśne Wzgórze 03", "48G", 1],
+			[740, "Błękitne Wzgórze / Leśne Wzgórze 04 nż", "45G", 0],
+			[739, "Błękitne Wzgórze / Słoneczny Stok 01 nż", "46G", 1],
+			[738, "Błękitne Wzgórze / Słoneczny Stok 02 nż", "43G", 0]
+		]
+	],
+	[
+		101,
+		"Boguchwała",
+		[
+			[620, "Boguchwała 64 nż", "53B", 1],
+			[618, "Boguchwała 66 nż", "57B", 1],
+			[619, "Boguchwała 97", "64B", 1],
+			[621, "Boguchwała 99 nż", "58B", 1],
+			[1336, "Boguchwała Polna 20 nż", "70B", 1],
+			[1333, "Boguchwała Polna 21 nż", "63B", 1],
+			[1327, "Boguchwała skrzyżowanie 72 nż", "75B", 1],
+			[1321, "Boguchwała skrzyżowanie 93 nż", "84B", 1],
+			[1345, "Boguchwała Urząd Gminy 70 nż", "61B", 1],
+			[1326, "Boguchwała Urząd Gminy 95 nż", "68B", 1],
+			[1338, "Boguchwała wiadukt 74 nż", "77B", 1],
+			[1328, "Boguchwała wiadukt 91 nż", "86B", 1]
+		]
+	],
+	[391, "Borelowskiego", [[1561, "Kasprowicza", "69E", 0]]],
+	[
+		382,
+		"Borowa",
+		[
+			[1493, "Borowa / Żywiczna 04 nż", "35C", 0],
+			[1491, "Borowa 01 nż", "34C", 0],
+			[1492, "Borowa 02 nż", "33C", 0]
+		]
+	],
+	[
+		20,
+		"Boya-Żeleńskiego",
+		[
+			[64, "Boya Żeleńskiego 01 nż", "21G", 0],
+			[65, "Boya Żeleńskiego 02 nż", "26G", 0]
+		]
+	],
+	[
+		338,
+		"Bratkowice",
+		[
+			[969, "Bratkowice Cieniaki 05 nż", "76S", 1],
+			[970, "Bratkowice Cieniaki 06 nż", "89S", 1],
+			[967, "Bratkowice Czekaj 03 nż", "74S", 1],
+			[968, "Bratkowice Czekaj 04 nż", "91S", 1],
+			[971, "Bratkowice Klepak 07 nż", "78S", 1],
+			[972, "Bratkowice Klepak 08 nż", "87S", 1],
+			[1494, "Bratkowice Las 02", "105S", 1],
+			[982, "Bratkowice Otoka 11 nż", "77S", 1],
+			[981, "Bratkowice Otoka 12 nż", "88S", 1],
+			[980, "Bratkowice Piaski 01 nż", "79S", 1],
+			[979, "Bratkowice Piaski 02 nż", "86S", 1],
+			[977, "Bratkowice Piaski I 03 nż", "84S", 1],
+			[978, "Bratkowice Piaski I 04 nż", "81S", 1],
+			[975, "Bratkowice Sitkówka 05 nż", "82S", 1],
+			[976, "Bratkowice Sitkówka 06 nż", "83S", 1],
+			[1311, "Bratkowice Sitkówka II 07 nż", "122S", 1],
+			[1312, "Bratkowice Sitkówka II 08 nż", "121S", 1],
+			[974, "Bratkowice szkoła 09 nż", "85S", 1],
+			[973, "Bratkowice szkoła 10 nż", "80S", 1]
+		]
+	],
+	[
+		73,
+		"Budziwojska",
+		[
+			[378, "Budziwojska / Herbowa 01 nż", "132A", 0],
+			[377, "Budziwojska / Herbowa 02 nż", "141A", 0],
+			[363, "Budziwojska / Jana Pawła II 07 nż", "102A", 0],
+			[876, "Budziwojska / Jana Pawła II 10 nż", "49A", 0],
+			[368, "Budziwojska / Karmelicka 05 nż", "104A", 0],
+			[367, "Budziwojska / Karmelicka 08 nż", "121A", 0],
+			[359, "Budziwojska / Kwiatowa 13 nż", "126A", 0],
+			[888, "Budziwojska / Kwiatowa 16 nż", "135A", 0],
+			[375, "Budziwojska / Legionistów 03 nż", "106A", 0],
+			[374, "Budziwojska / Legionistów 04 nż", "119A", 0],
+			[357, "Budziwojska / Podleśna 11 nż", "54A", 0],
+			[358, "Budziwojska / Podleśna 14 nż", "105A", 0],
+			[1117, "Budziwojska / Poselska 15 nż", "147A", 0],
+			[360, "Budziwojska / Poselska 18 nż", "100A", 0],
+			[376, "Budziwojska / Tarnopolska 06 nż", "143A", 0],
+			[1040, "Budziwojska cmentarz 09", "190A", 0],
+			[366, "Budziwojska pętla 22", "138A", 0],
+			[364, "Budziwojska sklep 17 nż", "136A", 0],
+			[365, "Budziwojska sklep 20 nż", "157A", 0],
+			[1039, "Budziwojska szkoła 12", "155A", 0]
+		]
+	],
+	[
+		21,
+		"Chmaja",
+		[
+			[67, "Chmaja / Langiewicza 01 nż", "22G", 0],
+			[68, "Chmaja / Langiewicza 02 nż", "19G", 0],
+			[66, "Chmaja bloki 03 nż", "24G", 0]
+		]
+	],
+	[
+		349,
+		"Chmury",
+		[
+			[1289, "Chmury 01 nż", "100S", 0],
+			[1288, "Chmury 02 nż", "93S", 0]
+		]
+	],
+	[
+		59,
+		"Cienista",
+		[
+			[253, "Cienista / Lwowska 02 nż", "39D", 0],
+			[255, "Cienista cmentarz 01", "54D", 0]
+		]
+	],
+	[
+		15,
+		"Cieplińskiego",
+		[
+			[46, "Cieplińskiego 01", "6B", 0],
+			[47, "Cieplińskiego 02", "5B", 0]
+		]
+	],
+	[
+		65,
+		"Ciepłownicza",
+		[
+			[1155, "Ciepłownicza / Rzecha 02 nż", "69D", 0],
+			[1158, "Ciepłownicza Elektrociepłownia 06", "34D", 0],
+			[284, "Ciepłownicza MPGK 01 nż", "32D", 0],
+			[1157, "Ciepłownicza MPGK 04 nż", "23D", 0]
+		]
+	],
+	[
+		36,
+		"Dąbrowskiego",
+		[
+			[126, "Dąbrowskiego / Bat. Chłopskich 10", "15B", 0],
+			[125, "Dąbrowskiego / Boh. Westerplatte 08", "13B", 0],
+			[1150, "Dąbrowskiego Instytut Muzyki 07", "14B", 0],
+			[1060, "Dąbrowskiego kościół 05", "112B", 0],
+			[1059, "Dąbrowskiego kościół 06", "111B", 0],
+			[123, "Dąbrowskiego KW Policji 03", "12B", 0],
+			[122, "Dąbrowskiego KW Policji 04", "11B", 0],
+			[121, "Dąbrowskiego park 01", "10B", 0],
+			[120, "Dąbrowskiego park 02", "9B", 0]
+		]
+	],
+	[
+		112,
+		"Dębicka",
+		[
+			[760, "Dębicka / Ciche Wzgórze 15 nż", "44E", 0],
+			[759, "Dębicka / Ciche Wzgórze 16 nż", "43E", 0],
+			[758, "Dębicka / Działowa 17 nż", "38E", 0],
+			[761, "Dębicka / Działowa 18 nż", "39E", 0],
+			[746, "Dębicka / Krakowska 01 nż", "26E", 0],
+			[745, "Dębicka / Krakowska 02 nż", "27E", 0],
+			[1244, "Dębicka / Leśne Wzgórze 20 nż", "45E", 0],
+			[919, "Dębicka / Stadionowa 11 nż", "46E", 0],
+			[918, "Dębicka / Stadionowa 12 nż", "59E", 0],
+			[1246, "Dębicka / Św. Jakuba 19 nż", "40E", 0],
+			[1245, "Dębicka / Św. Jakuba 22 nż", "41E", 0],
+			[750, "Dębicka / Ustrzycka 05 nż", "30E", 0],
+			[749, "Dębicka / Ustrzycka 06 nż", "31E", 0],
+			[756, "Dębicka / Złocista 13 nż", "36E", 0],
+			[755, "Dębicka / Złocista 14 nż", "37E", 0],
+			[752, "Dębicka Dom Kultury 07 nż", "32E", 0],
+			[751, "Dębicka Dom Kultury 08 nż", "33E", 0],
+			[748, "Dębicka kościół 03 nż", "28E", 0],
+			[747, "Dębicka kościół 04 nż", "29E", 0],
+			[754, "Dębicka szkoła 09", "34E", 0],
+			[753, "Dębicka szkoła 10", "35E", 0]
+		]
+	],
+	[147, "Dworaka", [[1262, "Dworaka targ 01", "9D", 0]]],
+	[
+		93,
+		"Głogów Młp.",
+		[
+			[1529, "Głogów Młp. Leniar I 01 nż", "134W", 1],
+			[1016, "Głogów Młp. MetaZel II 02 nż", "127W", 1],
+			[1099, "Głogów Młp. Yanko I 01 nż", "128W", 1],
+			[1093, "Głogów Młp. Zelmer II 02", "107W", 1]
+		]
+	],
+	[12, "Głowackiego", [[40, "Głowackiego ZUS 01 nż", "10A", 0]]],
+	[
+		135,
+		"Hermanowa",
+		[
+			[1376, "Hermanowa Czerwonki pętla 53", "201A", 1],
+			[1379, "Hermanowa Czerwonki środek 51 nż", "199A", 1],
+			[1374, "Hermanowa Czerwonki środek 52 nż", "186A", 1],
+			[1380, "Hermanowa dół 38 nż", "187A", 1],
+			[1372, "Hermanowa dół 39 nż", "174A", 1],
+			[1368, "Hermanowa dworek 40 nż", "189A", 1],
+			[1375, "Hermanowa dworek 41 nż", "176A", 1],
+			[1371, "Hermanowa Kamieniec skrz. 49 nż", "197A", 1],
+			[1378, "Hermanowa Kamieniec skrz. 50 nż", "184A", 1],
+			[1373, "Hermanowa kościół 44 nż", "193A", 1],
+			[1370, "Hermanowa kościół 45 nż", "180A", 1],
+			[1369, "Hermanowa pętla 48 nż", "205A", 1],
+			[1144, "Hermanowa Przylasek 04 nż", "125A", 1],
+			[1145, "Hermanowa Przylasek 05 nż", "148A", 1],
+			[398, "Hermanowa Przylasek pętla 03", "160A", 1],
+			[399, "Hermanowa Przylasek źródełko 01 nż", "158A", 1],
+			[400, "Hermanowa Przylasek źródełko 02 nż", "167A", 1],
+			[1377, "Hermanowa skrzyżowanie 46 nż", "182A", 1],
+			[1381, "Hermanowa skrzyżowanie 47 nż", "195A", 1],
+			[1512, "Hermanowa skrzyżowanie 47A nż", "203A", 1],
+			[1366, "Hermanowa szkoła 42 nż", "191A", 1],
+			[1367, "Hermanowa szkoła 43 nż", "178A", 1]
+		]
+	],
+	[
+		35,
+		"Hetmańska",
+		[
+			[118, "Hetmańska podzamcze 01", "16A", 0],
+			[119, "Hetmańska podzamcze 02", "15A", 0],
+			[116, "Hetmańska przychodnia 03", "18A", 0],
+			[117, "Hetmańska przychodnia 04", "17A", 0],
+			[113, "Hetmańska stadion 07", "22A", 0],
+			[114, "Hetmańska ZS. Mech. 05", "20A", 0],
+			[115, "Hetmańska ZS. Mech. 06", "19A", 0]
+		]
+	],
+	[
+		350,
+		"Inwestycyjna",
+		[
+			[1307, "Inwestycyjna 01 nż", "106S", 0],
+			[1298, "Inwestycyjna 02 nż", "99S", 0]
+		]
+	],
+	[
+		345,
+		"Iwonicka",
+		[
+			[1272, "Iwonicka / Korczyńska 01 nż", "64G", 0],
+			[1273, "Iwonicka / Korczyńska 02 nż", "87G", 0]
+		]
+	],
+	[
+		362,
+		"Jana Pawła II",
+		[
+			[877, "Jana Pawła II / Budziwojska 15 nż", "52A", 0],
+			[348, "Jana Pawła II / Gościnna 03 nż", "44A", 0],
+			[347, "Jana Pawła II / Gościnna 04 nż", "41A", 0],
+			[354, "Jana Pawła II / Herbowa 09 nż", "48A", 0],
+			[353, "Jana Pawła II / Herbowa 10 nż", "45A", 0],
+			[356, "Jana Pawła II / Strzelców 13 nż", "50A", 0],
+			[355, "Jana Pawła II / Strzelców 14 nż", "47A", 0],
+			[1160, "Jana Pawła II / Św. Antoniego 05 nż", "46A", 0],
+			[1159, "Jana Pawła II / Św. Antoniego 06 nż", "43A", 0],
+			[351, "Jana Pawła II / Zakątkowa 07 nż", "130A", 0],
+			[352, "Jana Pawła II / Zakątkowa 08 nż", "139A", 0],
+			[346, "Jana Pawła II OSP 01 nż", "42A", 0],
+			[345, "Jana Pawła II OSP 02 nż", "39A", 0]
+		]
+	],
+	[
+		119,
+		"Jarowa",
+		[
+			[796, "Jarowa / Brzegowa 05 nż", "136B", 0],
+			[797, "Jarowa / Brzegowa 06 nż", "125B", 0],
+			[795, "Jarowa / Starowiejska 03 nż", "134B", 0],
+			[794, "Jarowa / Starowiejska 04 nż", "123B", 0],
+			[793, "Jarowa kościół 01 nż", "132B", 0],
+			[792, "Jarowa kościół 02 nż", "121B", 0],
+			[798, "Jarowa pętla 07", "138B", 0]
+		]
+	],
+	[
+		86,
+		"Jasionka",
+		[
+			[579, "Jasionka - Port Lotniczy", "98L", 1],
+			[1515, "Jasionka Aero 01 nż", "194L", 1],
+			[1517, "Jasionka Aero 02 nż", "191L", 1],
+			[1299, "Jasionka Aeroklub 02 nż", "51L", 1],
+			[1296, "Jasionka Aeroklub 11 nż", "50L", 1],
+			[1387, "Jasionka Borg 06 nż", "105L", 1],
+			[1390, "Jasionka Borg 07 nż", "113L", 1],
+			[1578, "Jasionka Elmat 03 nż", "116L", 1],
+			[1580, "Jasionka Elmat 10 nż", "109L", 1],
+			[1516, "Jasionka EME Aero 01", "189L", 1],
+			[1518, "Jasionka EME Aero 02", "192L", 1],
+			[1576, "Jasionka LPP 01", "193L", 1],
+			[1552, "Jasionka Port Lotniczy CWK 05 nż", "112L", 1],
+			[1553, "Jasionka Port Lotniczy CWK 08 nż", "107L", 1],
+			[1388, "Jasionka przedszkole ochronka 04 nż", "101L", 1],
+			[1389, "Jasionka przedszkole ochronka 09 nż", "110L", 1],
+			[1579, "Rudna Mała 12 nż", "119L", 1]
+		]
+	],
+	[
+		146,
+		"Kalinowa",
+		[
+			[1519, "Kalinowa kapliczka 01 nż", "66E", 0],
+			[1514, "Kalinowa kapliczka 02 nż", "67E", 0],
+			[1247, "Kalinowa pętla 04", "42E", 0]
+		]
+	],
+	[
+		117,
+		"Kamyszyn",
+		[
+			[1281, "Kamyszyn I 01 nż", "53S", 1],
+			[1279, "Kamyszyn II 02 nż", "40S", 1],
+			[1496, "Kamyszyn pętla 03 nż", "49S", 1],
+			[779, "Kamyszyn pętla 04 nż", "24S", 1]
+		]
+	],
+	[
+		77,
+		"Kard. Karola Wojtyły",
+		[
+			[904, "Kard. K .Wojtyły / Sikorskiego 01 nż", "175A", 0],
+			[905, "Kard. K. Wojtyły / Sikorskiego 02 nż", "170A", 0],
+			[393, "Kard. K. Wojtyły kościół 05 nż", "124A", 0],
+			[392, "Kard. K. Wojtyły kościół 06 nż", "133A", 0],
+			[390, "Kard. K. Wojtyły pętla 03", "166A", 0],
+			[391, "Kard. K. Wojtyły pętla 04 nż", "131A", 0]
+		]
+	],
+	[
+		108,
+		"Karkonoska",
+		[
+			[703, "Karkonoska / Beskidzka 01 nż", "26B", 0],
+			[702, "Karkonoska / Beskidzka 02 nż", "27B", 0],
+			[705, "Karkonoska 03 nż", "28B", 0],
+			[704, "Karkonoska 04 nż", "29B", 0],
+			[707, "Karkonoska pętla 05 nż", "30B", 0],
+			[706, "Karkonoska pętla 06 nż", "31B", 0]
+		]
+	],
+	[
+		111,
+		"Kielanówka",
+		[
+			[735, "Kielanówka 03 nż", "42G", 0],
+			[734, "Kielanówka 04 nż", "39G", 0],
+			[733, "Kielanówka cegielnia 01 nż", "40G", 0],
+			[732, "Kielanówka cegielnia 02 nż", "37G", 0],
+			[744, "Kielanówka pętla 14", "49G", 1],
+			[743, "Kielanówka poczta 11 nż", "50G", 1],
+			[742, "Kielanówka poczta 12 nż", "47G", 1],
+			[737, "Kielanówka Ruch 05 nż", "44G", 0],
+			[736, "Kielanówka Ruch 06 nż", "41G", 0]
+		]
+	],
+	[343, "Kielnarowa", [[1255, "Królka pętla 10", "206A", 1]]],
+	[
+		43,
+		"Kiepury",
+		[
+			[164, "Kiepury / Herberta 01 nż", "73A", 0],
+			[165, "Kiepury / Herberta 02 nż", "70A", 0],
+			[166, "Kiepury / Wichrowa 03 nż", "75A", 0]
+		]
+	],
+	[
+		340,
+		"Kilara",
+		[
+			[1083, "Kilara 01 nż", "140A", 0],
+			[1082, "Kilara 02 nż", "145A", 0]
+		]
+	],
+	[
+		61,
+		"Konfederatów Barskich",
+		[
+			[269, "Konf. Barskich / Traugutta 01 nż", "8D", 0],
+			[268, "Konf. Barskich / Traugutta 02 nż", "5D", 0]
+		]
+	],
+	[
+		39,
+		"Kopisto",
+		[
+			[128, "Kopisto Most Zamkowy 04", "142A", 0],
+			[129, "Kopisto U. Skarbowy 03", "127A", 0],
+			[231, "Kopisto Uniwersytet 01", "120A", 0],
+			[232, "Kopisto Uniwersytet 02", "118A", 0]
+		]
+	],
+	[
+		125,
+		"Kotuli",
+		[
+			[873, "Kotuli / Solarza 01", "55G", 0],
+			[872, "Kotuli / Ustrzycka 02", "8G", 0],
+			[875, "Kotuli / Zbyszewskiego 03", "9G", 0],
+			[874, "Kotuli domki 04", "52G", 0]
+		]
+	],
+	[
+		374,
+		"Kraczkowa",
+		[
+			[1556, "Kraczkowa 09 nż", "127G", 1],
+			[1563, "Kraczkowa 10 nż", "134G", 1],
+			[1560, "Kraczkowa Budy 04 nż", "110G", 1],
+			[1555, "Kraczkowa Budy 15 nż", "111G", 1],
+			[1566, "Kraczkowa Graniczna 01 nż", "999G", 1],
+			[1571, "Kraczkowa Graniczna 02 nż", "998G", 1],
+			[1559, "Kraczkowa Kopciówka 06 nż", "112G", 1],
+			[1554, "Kraczkowa Kopciówka 13 nż", "113G", 1],
+			[1573, "Kraczkowa rondo 03 nż", "133G", 1],
+			[1567, "Kraczkowa rondo 16 nż", "140G", 1],
+			[1570, "Kraczkowa skrzyżowanie 05 nż", "131G", 1],
+			[1568, "Kraczkowa skrzyżowanie 14 nż", "138G", 1],
+			[1557, "Kraczkowa szkoła 08 nż", "114G", 1],
+			[1558, "Kraczkowa szkoła 11 nż", "115G", 1],
+			[1572, "Kraczkowa Zagumnie 07 nż", "129G", 1],
+			[1564, "Kraczkowa Zagumnie 12 nż", "136G", 1]
+		]
+	],
+	[
+		16,
+		"Krakowska",
+		[
+			[337, "Krakowska / Ceramiczna 12", "13S", 0],
+			[332, "Krakowska / Mielecka 07 nż", "8S", 0],
+			[338, "Krakowska / Ustrzycka 11", "12S", 0],
+			[331, "Krakowska / Wyzwolenia 08 nż", "9S", 0],
+			[335, "Krakowska cmentarz 09 nż", "10S", 0],
+			[336, "Krakowska cmentarz 10 nż", "11S", 0],
+			[766, "Krakowska Dworzysko 13", "14S", 0],
+			[765, "Krakowska Dworzysko 16", "15S", 0],
+			[330, "Krakowska galeria 05", "6S", 0],
+			[329, "Krakowska galeria 06", "7S", 0],
+			[768, "Krakowska granica 15", "16S", 0],
+			[767, "Krakowska granica 18 nż", "17S", 0],
+			[50, "Krakowska Jedn. Wojskowa 01", "2S", 0],
+			[49, "Krakowska Jedn. Wojskowa 02", "3S", 0],
+			[328, "Krakowska szpital 03", "4S", 0],
+			[327, "Krakowska szpital 04", "5S", 0]
+		]
+	],
+	[100, "Krasne", [[1256, "Krasne Auchan 01", "165D", 1]]],
+	[
+		377,
+		"Krogulskiego",
+		[
+			[1438, "Krogulskiego / Gromskiego 01 nż", "28C", 0],
+			[1440, "Krogulskiego / Gromskiego 02 nż", "27C", 0],
+			[1437, "Krogulskiego / Welca 03 nż", "30C", 0]
+		]
+	],
+	[
+		49,
+		"Krzyżanowskiego",
+		[
+			[190, "Krzyżanowskiego / Armii Krajowej 04 nż", "4N", 0],
+			[189, "Krzyżanowskiego / Paderewskiego 03 nż", "3N", 0],
+			[234, "Krzyżanowskiego szkoła 01", "28N", 0],
+			[233, "Krzyżanowskiego szkoła 02", "33N", 0]
+		]
+	],
+	[
+		63,
+		"Księżycowa",
+		[
+			[275, "Księżycowa / Załęska 01 nż", "12D", 0],
+			[274, "Księżycowa / Załęska 02 nż", "13D", 0]
+		]
+	],
+	[
+		40,
+		"Kwiatkowskiego",
+		[
+			[146, "Kwiatkowskiego / Jachowicza 09", "38A", 0],
+			[145, "Kwiatkowskiego / Jachowicza 12", "35A", 0],
+			[144, "Kwiatkowskiego / Koło 07 nż", "36A", 0],
+			[143, "Kwiatkowskiego / Podmiejska 10 nż", "33A", 0],
+			[135, "Kwiatkowskiego / Powst. Warszawy 02", "25A", 0],
+			[140, "Kwiatkowskiego / Strażacka 03 nż", "32A", 0],
+			[139, "Kwiatkowskiego / Strażacka 06 nż", "29A", 0],
+			[138, "Kwiatkowskiego Dom Studenta 01 nż", "30A", 0],
+			[137, "Kwiatkowskiego Dom Studenta 04 nż", "27A", 0],
+			[344, "Kwiatkowskiego hotel 11 nż", "40A", 0],
+			[343, "Kwiatkowskiego hotel 14 nż", "37A", 0],
+			[142, "Kwiatkowskiego żwirownia 05 nż", "34A", 0],
+			[141, "Kwiatkowskiego żwirownia 08 nż", "31A", 0]
+		]
+	],
+	[
+		22,
+		"Langiewicza",
+		[
+			[70, "Langiewicza / Hoffmanowej 01 nż", "20G", 0],
+			[75, "Langiewicza / Wita Stwosza 04 nż", "23G", 0],
+			[76, "Langiewicza / Wita Stwosza 05 nż", "28G", 0],
+			[71, "Langiewicza park 02 nż", "62G", 0],
+			[69, "Langiewicza park 03 nż", "59G", 0]
+		]
+	],
+	[
+		53,
+		"Leszka Czarnego",
+		[
+			[251, "Leszka Czarnego / Anny Jagiellonki 02 nż", "41D", 0],
+			[219, "Leszka Czarnego / Litewska 04 nż", "43D", 0],
+			[218, "Leszka Czarnego 01 nż", "56D", 0]
+		]
+	],
+	[
+		24,
+		"Lisa Kuli",
+		[
+			[926, "Lisa-Kuli 01", "7B", 0],
+			[74, "Lisa-Kuli 02", "8B", 0]
+		]
+	],
+	[
+		8,
+		"Lubelska",
+		[
+			[298, "Lubelska / Borowa 07 nż", "6L", 0],
+			[297, "Lubelska / Borowa 08 nż", "5L", 0],
+			[303, "Lubelska granica 15 nż", "12L", 0],
+			[304, "Lubelska granica 16 nż", "11L", 0],
+			[23, "Lubelska kościół 05 nż", "4L", 0],
+			[22, "Lubelska kościół 06 nż", "3L", 0],
+			[301, "Lubelska MPK 13 nż", "10L", 0],
+			[302, "Lubelska MPK 14 nż", "9L", 0],
+			[1310, "Lubelska Ogrody Hiszpańskie 11 nż", "190L", 0],
+			[1575, "Lubelska Ogrody Hiszpańskie 12 nż", "195L", 0],
+			[300, "Lubelska Os. Ogrody 09", "8L", 0],
+			[299, "Lubelska Os. Ogrody 10", "7L", 0],
+			[21, "Lubelska szpital 01", "2L", 0],
+			[20, "Lubelska szpital 02", "1L", 0],
+			[961, "Lubelska Zajezdnia MPK", "9999", 0]
+		]
+	],
+	[
+		358,
+		"Lutoryż",
+		[
+			[1340, "Lutoryż 76 nż", "79B", 1],
+			[1325, "Lutoryż 89 nż", "88B", 1],
+			[1341, "Lutoryż kościół 09 nż", "90B", 1],
+			[1330, "Lutoryż kościół 10 nż", "81B", 1],
+			[1344, "Lutoryż pętla 04", "96B", 1],
+			[1334, "Lutoryż szkoła 07 nż", "83B", 1],
+			[1337, "Lutoryż szkoła 08 nż", "92B", 1],
+			[1342, "Lutoryż wieś 05 nż", "85B", 1],
+			[1329, "Lutoryż wieś 06 nż", "94B", 1]
+		]
+	],
+	[
+		56,
+		"Lwowska",
+		[
+			[264, "Lwowska / Bałtycka 09 nż", "40D", 0],
+			[252, "Lwowska / Cienista 07", "38D", 0],
+			[265, "Lwowska / Kr. Marysienki 10 nż", "29D", 0],
+			[263, "Lwowska / Olbrachta 08 nż", "27D", 0],
+			[245, "Lwowska cmentarz 03", "6D", 0],
+			[246, "Lwowska cmentarz 04", "3D", 0],
+			[267, "Lwowska granica 11 nż", "42D", 0],
+			[266, "Lwowska granica 12 nż", "31D", 0],
+			[240, "Lwowska Jedn. Wojskowa 01", "4D", 0],
+			[239, "Lwowska Jedn. Wojskowa 02", "1D", 0],
+			[249, "Lwowska szpital 05", "36D", 0],
+			[248, "Lwowska szpital 06", "25D", 0],
+			[250, "Lwowska szpital pętla 02", "20N", 0]
+		]
+	],
+	[
+		42,
+		"Łukasiewicza",
+		[
+			[160, "Łukasiewicza / Gumińskich 06", "66A", 0],
+			[158, "Łukasiewicza / Krokusowa 01", "67A", 0],
+			[159, "Łukasiewicza / Sasanki 03", "69A", 0],
+			[156, "Łukasiewicza / Sikorskiego 02", "62A", 0],
+			[157, "Łukasiewicza / Zimowit 04", "64A", 0],
+			[161, "Łukasiewicza pętla 08", "98A", 0],
+			[163, "Łukasiewicza pętla 10", "68A", 0]
+		]
+	],
+	[
+		7,
+		"Marszałkowska",
+		[
+			[19, "Marszałkowska 01", "4W", 0],
+			[18, "Marszałkowska 02", "1W", 0]
+		]
+	],
+	[
+		33,
+		"Matuszczaka",
+		[
+			[102, "Matuszczaka / Rymanowska 02 nż", "87B", 0],
+			[103, "Matuszczaka pętla 04", "89B", 0]
+		]
+	],
+	[
+		74,
+		"Matysowska",
+		[
+			[167, "Matysowska / Skalista 02 nż", "72A", 0],
+			[371, "Matysowska górka 03 nż", "79A", 0],
+			[372, "Matysowska górka 06 nż", "76A", 0],
+			[373, "Matysowska pętla 08", "81A", 0],
+			[370, "Matysowska szkoła 01", "77A", 0],
+			[369, "Matysowska szkoła 04", "74A", 0]
+		]
+	],
+	[
+		57,
+		"Mieszka I",
+		[
+			[241, "Mieszka I / Kustronia 01 nż", "17N", 0],
+			[242, "Mieszka I / Kustronia 02 nż", "18N", 0]
+		]
+	],
+	[70, "Mikołajczyka", [[314, "Mikołajczyka pętla 03", "25E", 0]]],
+	[
+		46,
+		"Miła",
+		[
+			[178, "Miła / Strażacka 01 nż", "99A", 0],
+			[177, "Miła / Strażacka 02 nż", "94A", 0],
+			[179, "Miła bloki 03 nż", "101A", 0],
+			[180, "Miła bloki 04 nż", "96A", 0],
+			[181, "Miła Dom Kultury 05", "103A", 0],
+			[182, "Miła szkoła 06", "122A", 0]
+		]
+	],
+	[
+		71,
+		"Miłocińska",
+		[
+			[321, "Miłocińska pętla 01", "49E", 0],
+			[1137, "Miłocińska szkoła 02", "22E", 0]
+		]
+	],
+	[
+		23,
+		"Mochnackiego",
+		[
+			[73, "Mochnackiego 01 nż", "18G", 0],
+			[72, "Mochnackiego 02 nż", "17G", 0]
+		]
+	],
+	[
+		357,
+		"Mogielnica",
+		[
+			[1331, "Mogielnica Góra 02 nż", "124B", 1],
+			[1320, "Mogielnica Góra 03 nż", "117B", 1],
+			[1353, "Mogielnica I 14 nż", "76B", 1],
+			[1354, "Mogielnica I 15 nż", "69B", 1],
+			[1324, "Mogielnica II 16 nż", "74B", 1],
+			[1322, "Mogielnica II 17 nż", "67B", 1],
+			[1343, "Mogielnica Kobakówka 06 nż", "82B", 1],
+			[1351, "Mogielnica Kobakówka 07 nż", "115B", 1],
+			[1350, "Mogielnica most 18 nż", "72B", 1],
+			[1335, "Mogielnica most 19 nż", "65B", 1],
+			[1323, "Mogielnica pętla 01", "126B", 1],
+			[1355, "Mogielnica remiza 12 nż", "78B", 1],
+			[1347, "Mogielnica remiza 13 nż", "71B", 1],
+			[1349, "Mogielnica stara pętla 04 nż", "118B", 1],
+			[1352, "Mogielnica stara pętla 05 nż", "189B", 1],
+			[1339, "Mogielnica szkoła 10 nż", "98B", 1],
+			[1346, "Mogielnica szkoła 11 nż", "91B", 1],
+			[1348, "Mogielnica wieś 08 nż", "80B", 1],
+			[1332, "Mogielnica wieś 09 nż", "73B", 1]
+		]
+	],
+	[
+		354,
+		"Morgowa",
+		[
+			[1317, "Morgowa / Bałtycka 03 nż", "131D", 0],
+			[1318, "Morgowa / Cienista 01 nż", "193D", 0],
+			[1319, "Morgowa / Kaszubska 02 nż", "52D", 0]
+		]
+	],
+	[
+		337,
+		"Mrowla",
+		[
+			[984, "Mrowla I 13 nż", "75S", 1],
+			[983, "Mrowla I 14 nż", "90S", 1],
+			[986, "Mrowla II 15 nż", "73S", 1],
+			[985, "Mrowla II 16 nż", "92S", 1],
+			[1497, "Mrowla Otoka pętla 01", "107S", 1]
+		]
+	],
+	[
+		367,
+		"Myśliwska",
+		[
+			[1079, "Myśliwska / Kameliowa 05 nż", "136W", 0],
+			[1078, "Myśliwska / Kameliowa 06 nż", "137W", 0],
+			[1528, "Myśliwska / Oliwkowa 07 nż", "148W", 0],
+			[1527, "Myśliwska / Oliwkowa 08 nż", "141W", 0],
+			[404, "Myśliwska / Pogwizdowska 03 nż", "18W", 0],
+			[403, "Myśliwska / Pogwizdowska 04 nż", "15W", 0],
+			[1286, "Myśliwska / Św. Huberta 01 nż", "142W", 0],
+			[907, "Myśliwska / Św. Huberta 02 nż", "121W", 0]
+		]
+	],
+	[
+		54,
+		"Niemierskiego",
+		[
+			[220, "Niemierskiego 01 nż", "26N", 0],
+			[221, "Niemierskiego 02 nż", "29N", 0]
+		]
+	],
+	[
+		55,
+		"Niepodległości",
+		[
+			[223, "Niepodległości / Armii Krajowej 05", "14N", 0],
+			[225, "Niepodległości / Mieszka I 03", "12N", 0],
+			[227, "Niepodległości / Rejtana 02", "9N", 0],
+			[228, "Niepodległości Dom Dziecka 01", "10N", 0],
+			[226, "Niepodległości Dom Dziecka 04", "11N", 0],
+			[224, "Niepodległości działki 06 nż", "13N", 0]
+		]
+	],
+	[
+		347,
+		"Nowa Wieś",
+		[
+			[1305, "Nowa Wieś 35 nż", "47L", 1],
+			[1308, "Nowa Wieś 50 nż", "46L", 1],
+			[1270, "Nowa Wieś Port Lotniczy 37 nż", "49L", 1],
+			[1269, "Nowa Wieś Port Lotniczy 48 nż", "48L", 1]
+		]
+	],
+	[387, "Nowe Wzgórze", [[1541, "Nowe Wzgórze / Matysowska 02", "64E", 0]]],
+	[
+		68,
+		"Obrońców Poczty Gdańskiej",
+		[
+			[319, "Obr. Poczty Gdańskiej / Miłocińska 03", "53E", 0],
+			[310, "Obr. Poczty Gdańskiej / Wyzwolenia 02", "17E", 0],
+			[320, "Obr. Poczty Gdańskiej pętla 06", "57E", 0],
+			[318, "Obr. Poczty Gdańskiej pętla 08", "20E", 0],
+			[316, "Obr. Poczty Gdańskiej Policja 01", "18E", 0],
+			[317, "Obr. Poczty Gdańskiej Policja 04", "19E", 0]
+		]
+	],
+	[
+		344,
+		"Odrzykońska",
+		[
+			[1490, "Odrzykońska / Baligrodzka 04 nż", "91G", 0],
+			[1274, "Odrzykońska / Bł. Karoliny 02 nż", "85G", 0],
+			[1418, "Odrzykońska / Iwonicka 01 nż", "72G", 0]
+		]
+	],
+	[
+		69,
+		"Ofiar Katynia",
+		[
+			[311, "Ofiar Katynia / Wyzwolenia 02", "21E", 0],
+			[1010, "Ofiar Katynia galeria 06", "84G", 0],
+			[312, "Ofiar Katynia kładka 01", "24E", 0],
+			[313, "Ofiar Katynia kładka 04", "23E", 0],
+			[1011, "Ofiar Katynia park 03", "48E", 0]
+		]
+	],
+	[
+		72,
+		"Okulickiego",
+		[
+			[322, "Okulickiego / Wyzwolenia 05 nż", "6E", 0],
+			[323, "Okulickiego / Zwierzyniecka 03 nż", "4E", 0],
+			[324, "Okulickiego / Zwierzyniecka 04 nż", "3E", 0],
+			[325, "Okulickiego C. Handlowe 01", "2E", 0],
+			[326, "Okulickiego C. Handlowe 02", "1E", 0]
+		]
+	],
+	[
+		60,
+		"Olbrachta",
+		[
+			[258, "Olbrachta / Kr. Marysieńki 03 nż", "80D", 0],
+			[257, "Olbrachta / Lwowska 01 nż", "140D", 0],
+			[256, "Olbrachta / Lwowska 02 nż", "63D", 0],
+			[893, "Olbrachta / Św. Kingi 07 nż", "84D", 0],
+			[892, "Olbrachta / Św. Kingi 08 nż", "189D", 0],
+			[260, "Olbrachta / Zygmunta I Starego 04 nż", "65D", 0],
+			[259, "Olbrachta domki 05 nż", "82D", 0],
+			[261, "Olbrachta domki 06 nż", "67D", 0],
+			[262, "Olbrachta pętla 09", "86D", 0]
+		]
+	],
+	[
+		48,
+		"Paderewskiego",
+		[
+			[194, "Paderewskiego / Armii Krajowej 04 nż", "25N", 0],
+			[188, "Paderewskiego / Ossolińskich 01", "2N", 0],
+			[187, "Paderewskiego / Ossolińskich 02", "1N", 0],
+			[198, "Paderewskiego kościół 05", "58D", 0],
+			[197, "Paderewskiego kościół 08", "45D", 0],
+			[195, "Paderewskiego park 03 nż", "8N", 0],
+			[196, "Paderewskiego park 06 nż", "7N", 0]
+		]
+	],
+	[
+		26,
+		"Panoramiczna",
+		[
+			[80, "Panoramiczna 01 nż", "78G", 0],
+			[79, "Panoramiczna 02 nż", "69G", 0]
+		]
+	],
+	[
+		6,
+		"Piłsudskiego",
+		[
+			[906, "Piłsudskiego U. Marszałkowski 05", "48S", 0],
+			[48, "Piłsudskiego U. Marszałkowski 08", "1S", 0],
+			[17, "Piłsudskiego U. Wojewódzki 03", "4C", 0],
+			[16, "Piłsudskiego U. Wojewódzki 06", "3C", 0],
+			[43, "Piłsudskiego ZDZ 02", "2D", 0],
+			[15, "Pl. Wolności 01", "2C", 0],
+			[14, "Pl. Wolności 04", "1C", 0]
+		]
+	],
+	[128, "Pl. Kilińskiego", [[13, "Pl. Kilińskiego 01", "4B", 0]]],
+	[
+		139,
+		"Plenerowa",
+		[
+			[909, "Plenerowa przedszkole 01 nż", "80G", 0],
+			[910, "Plenerowa przedszkole 02 nż", "73G", 0]
+		]
+	],
+	[
+		32,
+		"Podkarpacka",
+		[
+			[100, "Podkarpacka / Matuszczaka 03", "18B", 0],
+			[101, "Podkarpacka / Matuszczaka 04", "19B", 0],
+			[615, "Podkarpacka / Nalepy 09 nż", "50B", 0],
+			[614, "Podkarpacka / Nalepy 10 nż", "47B", 0],
+			[105, "Podkarpacka / Wetlińska 05 nż", "20B", 0],
+			[104, "Podkarpacka / Wetlińska 06 nż", "21B", 0],
+			[1386, "Podkarpacka / Zwięczycka 11 nż", "52B", 0],
+			[617, "Podkarpacka granica 12 nż", "51B", 0],
+			[616, "Podkarpacka granica 13 nż", "56B", 0],
+			[107, "Podkarpacka kościół 07 nż", "22B", 0],
+			[106, "Podkarpacka kościół 08 nż", "23B", 0],
+			[99, "Podkarpacka Politechnika 01", "16B", 0],
+			[98, "Podkarpacka Politechnika 02", "17B", 0]
+		]
+	],
+	[
+		134,
+		"Podleśna",
+		[
+			[397, "Podleśna / Jarzębinowa 07 nż", "156A", 0],
+			[396, "Podleśna / Jarzębinowa 08 nż", "165A", 0],
+			[394, "Podleśna / Laskowa 03 nż", "154A", 0],
+			[395, "Podleśna / Liliowa 04 nż", "163A", 0],
+			[883, "Podleśna / Nadziei 05 nż", "172A", 0],
+			[882, "Podleśna / Nadziei 06 nż", "183A", 0],
+			[881, "Podleśna / Podlesie 01 nż", "152A", 0],
+			[880, "Podleśna / Podlesie 02 nż", "161A", 0]
+		]
+	],
+	[
+		38,
+		"Podwisłocze",
+		[
+			[132, "Podwisłocze / Powst. Warszawy 02", "51A", 0],
+			[130, "Podwisłocze domki 01", "57A", 0],
+			[131, "Podwisłocze klinika 04", "53A", 0],
+			[127, "Podwisłocze U. Skarbowy 03", "55A", 0]
+		]
+	],
+	[
+		383,
+		"Pogwizdowska",
+		[
+			[1283, "Pogwizdowska 05 nż", "116W", 0],
+			[1278, "Pogwizdowska 06 nż", "109W", 0],
+			[1284, "Pogwizdowska OSP 01 nż", "20W", 0],
+			[1282, "Pogwizdowska OSP 02 nż", "17W", 0],
+			[1285, "Pogwizdowska szkoła 03", "22W", 0],
+			[1280, "Pogwizdowska szkoła 04", "19W", 0]
+		]
+	],
+	[
+		133,
+		"Poselska",
+		[
+			[362, "Poselska / Budziwojska 03 nż", "137A", 0],
+			[361, "Poselska / Budziwojska 04 nż", "146A", 0],
+			[879, "Poselska / Podleśna 01 nż", "159A", 0],
+			[878, "Poselska / Podleśna 02 nż", "128A", 0]
+		]
+	],
+	[
+		67,
+		"Potockiego",
+		[
+			[293, "Potockiego / Ametystowa 03 nż", "24D", 0],
+			[292, "Potockiego / Ametystowa 06 nż", "21D", 0],
+			[291, "Potockiego / Nefrytowa 01 nż", "22D", 0],
+			[290, "Potockiego / Nefrytowa 04 nż", "19D", 0],
+			[1020, "Potockiego / Stączka 02", "199D", 0],
+			[294, "Potockiego Dom Seniora 05", "102D", 0],
+			[295, "Potockiego Dom Seniora 08", "85D", 0],
+			[296, "Potockiego pętla 10", "26D", 0]
+		]
+	],
+	[
+		34,
+		"Powstańców Warszawy",
+		[
+			[108, "Powst. Warszawy / Dąbrowskiego 02", "21A", 0],
+			[148, "Powst. Warszawy / Graniczna 10", "61A", 0],
+			[111, "Powst. Warszawy / Hetmańska 03", "24A", 0],
+			[133, "Powst. Warszawy / Podwisłocze 07", "28A", 0],
+			[150, "Powst. Warszawy / Rejtana 13", "60A", 0],
+			[151, "Powst. Warszawy / Sikorskiego 12", "63A", 0],
+			[134, "Powst. Warszawy Dom Studenta 08", "59A", 0],
+			[136, "Powst. Warszawy Dom Studenta 09", "56A", 0],
+			[109, "Powst. Warszawy Politechnika 01", "26A", 0],
+			[110, "Powst. Warszawy Politechnika 04", "151A", 0],
+			[1149, "Powst. Warszawy stadion 06", "23A", 0],
+			[147, "Powst. Warszawy szkoła 11", "58A", 0]
+		]
+	],
+	[
+		31,
+		"Przemysłowa",
+		[
+			[96, "Przemysłowa / Architektów 03 nż", "8F", 0],
+			[93, "Przemysłowa / Bat. Chłopskich 01 nż", "6F", 0],
+			[94, "Przemysłowa / Bat. Chłopskich 02 nż", "7F", 0],
+			[95, "Przemysłowa / Magazynowa 04 nż", "9F", 0],
+			[97, "Przemysłowa U. Celny 05", "10J", 0]
+		]
+	],
+	[
+		360,
+		"Racławówka",
+		[
+			[1397, "Racławówka 01 nż", "40B", 1],
+			[1392, "Racławówka 02 nż", "39B", 1],
+			[1398, "Racławówka 25 nż", "119B", 1],
+			[1404, "Racławówka 26 nż", "128B", 1],
+			[710, "Racławówka Doły pętla 28 nż", "34B", 0],
+			[1408, "Racławówka łąki 27 nż", "45B", 1],
+			[1406, "Racławówka łąki 28 nż", "60B", 1],
+			[1395, "Racławówka OSP 05 nż", "42B", 1],
+			[1394, "Racławówka OSP 06 nż", "41B", 1],
+			[1396, "Racławówka poczta 07 nż", "100B", 1],
+			[1403, "Racławówka poczta 08 nż", "97B", 1],
+			[1402, "Racławówka spółdzielnia 03 nż", "102B", 1],
+			[1400, "Racławówka spółdzielnia 04 nż", "95B", 1],
+			[1405, "Racławówka szkoła 29 nż", "105B", 1],
+			[1399, "Racławówka szkoła 30 nż", "46B", 1],
+			[1393, "Racławówka szkoła skrzyż. 09 nż", "44B", 1],
+			[1407, "Racławówka szkoła skrzyż. 10 nż", "43B", 1],
+			[708, "Racławówka wieś 30 nż", "33B", 0],
+			[709, "Racławówka wieś 31 nż", "32B", 0],
+			[1391, "Racławówka Zabierzów 23", "113B", 1]
+		]
+	],
+	[
+		47,
+		"Rejtana",
+		[
+			[184, "Rejtana / Armii Krajowej 12", "83A", 0],
+			[230, "Rejtana / Kopisto 07", "80A", 0],
+			[1075, "Rejtana / Krzyżanowskiego 08", "153A", 0],
+			[238, "Rejtana / Kustronia 02", "91A", 0],
+			[1076, "Rejtana / Kustronia 03", "144A", 0],
+			[237, "Rejtana / Lwowska 01", "84A", 0],
+			[185, "Rejtana / Paderewskiego 10", "85A", 0],
+			[186, "Rejtana / Popiełuszki 09", "78A", 0],
+			[236, "Rejtana cmentarz 04", "89A", 0],
+			[235, "Rejtana Uniwersytet 05", "82A", 0],
+			[229, "Rejtana Uniwersytet 06", "87A", 0]
+		]
+	],
+	[
+		44,
+		"Robotnicza",
+		[
+			[168, "Robotnicza / Goździkowa 01 nż", "164A", 0],
+			[170, "Robotnicza / Sikorskiego 02 nż", "181A", 0],
+			[169, "Robotnicza cmentarz 04 nż", "173A", 0]
+		]
+	],
+	[
+		376,
+		"Rudna Mała",
+		[
+			[1577, "Rudna Mała 01 nż", "126L", 1],
+			[1536, "Rudna Mała szpital 09 nż", "37W", 1],
+			[1535, "Rudna Mała szpital 54 nż", "42W", 1],
+			[1534, "Rudna Mała wiadukt 09 nż", "105W", 1],
+			[1537, "Rudna Mała wiadukt 70 nż", "144W", 1]
+		]
+	],
+	[
+		80,
+		"Rudna Wielka",
+		[
+			[1029, "Rudna Wielka dom ludowy 19 nż", "102S", 1],
+			[987, "Rudna Wielka dom ludowy 20 nż", "94S", 1],
+			[1173, "Rudna Wielka Dom Strażaka 17 nż", "97S", 1],
+			[1026, "Rudna Wielka Dom Strażaka 18 nż", "96S", 1],
+			[1025, "Rudna Wielka I 01 nż", "98S", 1],
+			[1028, "Rudna Wielka I 02 nż", "101S", 1],
+			[413, "Rudna Wielka kościół 21 nż", "25W", 1],
+			[414, "Rudna Wielka kościół 22 nż", "28W", 1],
+			[411, "Rudna Wielka Pehamet 23 nż", "23W", 1],
+			[412, "Rudna Wielka Pehamet 24 nż", "26W", 1],
+			[1030, "Rudna Wielka zakręt 03 nż", "103S", 1],
+			[1174, "Rudna Wielka zakręt 04 nż", "95S", 1]
+		]
+	],
+	[
+		356,
+		"Rymanowska",
+		[
+			[1382, "Rymanowska 01 nż", "116B", 0],
+			[1383, "Rymanowska 02 nż", "131B", 0]
+		]
+	],
+	[
+		64,
+		"Rzecha",
+		[
+			[1156, "Rzecha / Ciepłownicza 03 nż", "28D", 0],
+			[1166, "Rzecha / Ciepłownicza 06 nż", "89D", 0],
+			[1168, "Rzecha / Lubelska 05 nż", "162D", 0],
+			[1167, "Rzecha / Lubelska 08 nż", "113D", 0],
+			[1154, "Rzecha / Spółdzielcza 04 nż", "87D", 0],
+			[861, "Rzecha / Załęska 01 nż", "164D", 0],
+			[860, "Rzecha / Załęska 02 nż", "155D", 0]
+		]
+	],
+	[
+		352,
+		"Sanocka",
+		[
+			[1313, "Sanocka / Krośnieńska 01", "68G", 0],
+			[1314, "Sanocka / Krośnieńska 02", "77G", 0]
+		]
+	],
+	[
+		342,
+		"Sieciecha",
+		[
+			[273, "Sieciecha / Załęska 01 nż", "95D", 0],
+			[272, "Sieciecha / Załęska 02 nż", "108D", 0]
+		]
+	],
+	[
+		132,
+		"Siedliska",
+		[
+			[1110, "Siedliska 11 nż", "177A", 1],
+			[1109, "Siedliska 12 nż", "192A", 1],
+			[1112, "Siedliska Kościół 09 nż", "149A", 1],
+			[1111, "Siedliska Kościół 10 nż", "194A", 1],
+			[1113, "Siedliska Ośrodek Zdrowia 07 nż", "129A", 1],
+			[1114, "Siedliska Ośrodek Zdrowia 08 nż", "198A", 1],
+			[1115, "Siedliska Skrzyżowanie II 05", "131S", 1]
+		]
+	],
+	[
+		2,
+		"Siemieńskiego",
+		[
+			[8, "Siemieńskiego / Kochanowskiego 02 nż", "8A", 0],
+			[7, "Siemieńskiego Dom Studenta 01 nż", "7A", 0],
+			[5, "Siemieńskiego U. Skarbowy 03 nż", "5A", 0],
+			[6, "Siemieńskiego U. Skarbowy 04 nż", "6A", 0]
+		]
+	],
+	[
+		41,
+		"Sikorskiego",
+		[
+			[383, "Sikorskiego / Białogórska 07 nż", "116A", 0],
+			[384, "Sikorskiego / Białogórska 12 nż", "109A", 0],
+			[1277, "Sikorskiego / Kard. K. Wojtyły 11 nż", "112A", 0],
+			[381, "Sikorskiego / Kard. K. Wojtyły 16 nż", "113A", 0],
+			[155, "Sikorskiego / Łukasiewicza 06 nż", "169A", 0],
+			[152, "Sikorskiego / Powst. Warszawy 02", "134A", 0],
+			[171, "Sikorskiego / Robotnicza 05 nż", "95A", 0],
+			[389, "Sikorskiego / Rodzinna 09 nż", "114A", 0],
+			[385, "Sikorskiego / Rodzinna 14 nż", "111A", 0],
+			[382, "Sikorskiego / Ruczajowa 13 nż", "198B", 0],
+			[183, "Sikorskiego / Strażacka 10 nż", "107A", 0],
+			[172, "Sikorskiego domki 03 nż", "93A", 0],
+			[173, "Sikorskiego domki 08 nż", "88A", 0],
+			[386, "Sikorskiego granica 15 nż", "110A", 0],
+			[1276, "Sikorskiego granica 18 nż", "199B", 0],
+			[153, "Sikorskiego Katedra 01", "65A", 0],
+			[154, "Sikorskiego Katedra 04", "86A", 0],
+			[911, "Sikorskiego MPGK 20", "168A", 0]
+		]
+	],
+	[
+		51,
+		"Słocińska",
+		[
+			[204, "Słocińska / Niedziochy 05 nż", "74D", 0],
+			[203, "Słocińska / Niedziochy 06 nż", "59D", 0],
+			[712, "Słocińska / Pileckich 07 nż", "76D", 0],
+			[711, "Słocińska / Pileckich 08 nż", "61D", 0],
+			[713, "Słocińska / Rodziny Lutaków 09 nż", "78D", 0],
+			[714, "Słocińska / Rodziny Lutaków 10 nż", "97D", 0],
+			[201, "Słocińska cmentarz 03 nż", "122D", 0],
+			[202, "Słocińska cmentarz 04 nż", "115D", 0],
+			[1258, "Słocińska pętla 11", "88D", 0],
+			[199, "Słocińska szkoła 01", "72D", 0],
+			[200, "Słocińska szkoła 02", "57D", 0]
+		]
+	],
+	[389, "Smosarskiej", [[1540, "Smosarskiej 01 nż", "74E", 0]]],
+	[
+		148,
+		"Solarza",
+		[
+			[1263, "Solarza 01 nż", "60G", 0],
+			[1264, "Solarza 02 nż", "61G", 0]
+		]
+	],
+	[
+		136,
+		"Spichlerzowa",
+		[
+			[854, "Spichlerzowa / Załęska 01 nż", "168D", 0],
+			[850, "Spichlerzowa / Załęska 02 nż", "161D", 0],
+			[851, "Spichlerzowa pętla 04", "170D", 0]
+		]
+	],
+	[
+		11,
+		"Staromiejska",
+		[
+			[38, "Staromiejska / Lubelska 01 nż", "94W", 0],
+			[37, "Staromiejska / Lubelska 02 nż", "87W", 0],
+			[36, "Staromiejska Dom Kultury 03 nż", "96W", 0],
+			[35, "Staromiejska Dom Kultury 04 nż", "89W", 0],
+			[34, "Staromiejska szkoła 05", "98W", 0],
+			[33, "Staromiejska szkoła 06", "91W", 0]
+		]
+	],
+	[
+		25,
+		"Staroniwska",
+		[
+			[731, "Staroniwska / Kresowa 11 nż", "38G", 0],
+			[730, "Staroniwska / Kresowa 16 nż", "35G", 0],
+			[913, "Staroniwska / Rzemieślnicza 01 nż", "56G", 0],
+			[77, "Staroniwska / Rzemieślnicza 02 nż", "25G", 0],
+			[729, "Staroniwska / Zielarska 09 nż", "36G", 0],
+			[728, "Staroniwska / Zielarska 14 nż", "33G", 0],
+			[724, "Staroniwska kościół 05 nż", "34G", 0],
+			[723, "Staroniwska kościół 06 nż", "29G", 0],
+			[726, "Staroniwska pętla 08 nż", "53G", 0],
+			[725, "Staroniwska pętla 12", "31G", 0],
+			[722, "Staroniwska szkoła 03", "32G", 0],
+			[721, "Staroniwska szkoła 04", "27G", 0]
+		]
+	],
+	[
+		66,
+		"Stączka",
+		[
+			[288, "Stączka / Jaspisowa 04 nż", "17D", 0],
+			[289, "Stączka / Potockiego 03", "20D", 0],
+			[287, "Stączka kościół 01 nż", "18D", 0],
+			[286, "Stączka kościół 02 nż", "15D", 0]
+		]
+	],
+	[
+		45,
+		"Strażacka",
+		[
+			[401, "Strażacka / Graniczna 01 nż", "162A", 0],
+			[402, "Strażacka / Graniczna 02 nż", "171A", 0],
+			[174, "Strażacka / Sikorskiego 05 nż", "90A", 0],
+			[1232, "Strażacka / Sikorskiego 08 nż", "97A", 0],
+			[176, "Strażacka / Sympatyczna 05 nż", "92A", 0],
+			[1233, "Strażacka / Sympatyczna 06 nż", "207A", 0],
+			[1526, "Strażacka / Urocza 03 nż", "14A", 0],
+			[1234, "Strażacka / Urocza 04 nż", "209A", 0]
+		]
+	],
+	[
+		27,
+		"Strzelnicza",
+		[
+			[82, "Strzelnicza 01 nż", "76G", 0],
+			[81, "Strzelnicza 02 nż", "71G", 0]
+		]
+	],
+	[
+		14,
+		"Szopena",
+		[
+			[45, "Szopena Filharmonia 01", "150A", 0],
+			[44, "Szopena Filharmonia 02", "13A", 0]
+		]
+	],
+	[
+		52,
+		"Św. Rocha",
+		[
+			[1151, "Św. Rocha / Św. Walentego 12 nż", "55D", 0],
+			[208, "Św. Rocha bloki 03 nż", "62D", 0],
+			[207, "Św. Rocha bloki 04 nż", "49D", 0],
+			[211, "Św. Rocha domki 05 nż", "64D", 0],
+			[212, "Św. Rocha domki 06 nż", "51D", 0],
+			[214, "Św. Rocha górka 09 nż", "68D", 0],
+			[1513, "Św. Rocha górka 10 nż", "99E", 0],
+			[209, "Św. Rocha kapliczka 07 nż", "66D", 0],
+			[210, "Św. Rocha kapliczka 08 nż", "53D", 0],
+			[215, "Św. Rocha lasek pętla 11", "70D", 0],
+			[205, "Św. Rocha szkoła 01", "60D", 0],
+			[206, "Św. Rocha szkoła 02", "47D", 0]
+		]
+	],
+	[
+		114,
+		"Świlcza",
+		[
+			[786, "Świlcza 05 nż", "36S", 1],
+			[785, "Świlcza 06 nż", "37S", 1],
+			[917, "Świlcza 58 nż", "38S", 1],
+			[776, "Świlcza 75 nż", "39S", 1],
+			[770, "Świlcza Nowy Dwór 62 nż", "18S", 1],
+			[769, "Świlcza Nowy Dwór 71 nż", "19S", 1],
+			[772, "Świlcza osiedle 60 nż", "20S", 1],
+			[771, "Świlcza osiedle 73 nż", "21S", 1],
+			[782, "Świlcza PKP 01", "22S", 1],
+			[781, "Świlcza PKP 02", "23S", 1],
+			[783, "Świlcza sklep 03 nż", "34S", 1],
+			[784, "Świlcza sklep 04 nż", "35S", 1]
+		]
+	],
+	[
+		339,
+		"Tajęcina",
+		[
+			[1106, "Tajęcina Goodrich / OPTeam 01 nż", "188L", 1],
+			[1105, "Tajęcina Goodrich / OPTeam 02 nż", "187L", 1],
+			[1103, "Tajęcina MTU Aero Engines 04 nż", "185L", 1],
+			[1104, "Tajęcina MTU Aero Engines 05 nż", "186L", 1]
+		]
+	],
+	[
+		13,
+		"Targowa",
+		[
+			[42, "Targowa 01", "11A", 0],
+			[41, "Targowa 02", "12A", 0]
+		]
+	],
+	[
+		351,
+		"Technologiczna",
+		[
+			[1294, "Technologiczna rondo 01 nż", "104S", 0],
+			[1546, "Technologiczna rondo 02 nż", "109S", 0]
+		]
+	],
+	[359, "Towarnickiego", [[1063, "Dworzec Lokalny", "1D1", 0]]],
+	[
+		1,
+		"Trembeckiego",
+		[
+			[3, "Trembeckiego / Siemieńskiego 04 nż", "3A", 0],
+			[4, "Trembeckiego / Siemieńskiego 07 nż", "4A", 0],
+			[39, "Trembeckiego ZTM 02 nż", "2", 0],
+			[2, "Trembeckiego ZTM 05 nż", "2A", 0],
+			[1, "Trembeckiego ZTM pętla 01", "1A", 0]
+		]
+	],
+	[
+		116,
+		"Trzciana",
+		[
+			[777, "Trzciana Gminny Ośrodek Kultury 01 nż", "29S", 1],
+			[778, "Trzciana Gminny Ośrodek Kultury 02 nż", "30S", 1],
+			[916, "Trzciana pętla 05", "33S", 1],
+			[915, "Trzciana sklep 02 nż", "32S", 1],
+			[914, "Trzciana sklep 03 nż", "31S", 1],
+			[774, "Trzciana Woliczka 56 nż", "28S", 1],
+			[773, "Trzciana Woliczka 77 nż", "27S", 1]
+		]
+	],
+	[
+		348,
+		"Trzebownisko",
+		[
+			[1306, "Trzebownisko 29 nż", "13L", 1],
+			[1297, "Trzebownisko 56 nż", "14L", 1],
+			[1301, "Trzebownisko mleczarnia 31 nż", "43L", 1],
+			[1304, "Trzebownisko mleczarnia 54 nż", "42L", 1],
+			[1302, "Trzebownisko pływalnia 33 nż", "111L", 1],
+			[1291, "Trzebownisko pływalnia 52 nż", "114L", 1]
+		]
+	],
+	[
+		75,
+		"Tyczyn",
+		[
+			[887, "Tyczyn Grunwaldzka park 01 nż", "179A", 1],
+			[379, "Tyczyn Grunwaldzka park 02 nż", "123A", 1],
+			[380, "Tyczyn Grunwaldzka POM 02 nż", "115A", 1],
+			[1581, "Tyczyn Grunwaldzka POM 27 nż", "208A", 1],
+			[1004, "Tyczyn Kopernika 02", "188A", 1],
+			[1250, "Tyczyn Lasek 05 nż", "215A", 1],
+			[1253, "Tyczyn Lasek 06 nż", "202A", 1],
+			[1251, "Tyczyn Lasek II 07 nż", "217A", 1],
+			[1254, "Tyczyn Lasek II 08 nż", "204A", 1],
+			[988, "Tyczyn Mickiewicza 01 nż", "185A", 1],
+			[1249, "Tyczyn Mickiewicza kapliczka 03 nż", "213A", 1],
+			[1252, "Tyczyn Mickiewicza kapliczka 04 nż", "200A", 1],
+			[387, "Tyczyn Orkana skrzyżowanie 13 nż", "117A", 1],
+			[388, "Tyczyn Orkana skrzyżowanie 16 nż", "108A", 1]
+		]
+	],
+	[
+		126,
+		"Ustrzycka",
+		[
+			[1261, "Ustrzycka / Magórska 07", "90G", 0],
+			[1266, "Ustrzycka / Wadowicka 03 nż", "30G", 0],
+			[1265, "Ustrzycka / Wadowicka 04 nż", "63G", 0],
+			[1259, "Ustrzycka 05 nż", "75G", 0],
+			[871, "Ustrzycka pętla 01", "10G", 0],
+			[1005, "Ustrzycka pętla 02 nż", "57G", 0]
+		]
+	],
+	[
+		10,
+		"Warszawska",
+		[
+			[340, "Warszawska / Borowa 07 nż", "12W", 0],
+			[339, "Warszawska / Borowa 08 nż", "9W", 0],
+			[1222, "Warszawska / Łowiecka 10 nż", "11W", 0],
+			[342, "Warszawska / Myśliwska 09", "14W", 0],
+			[32, "Warszawska / Staromiejska 05 nż", "10W", 0],
+			[31, "Warszawska / Staromiejska 06 nż", "7W", 0],
+			[1221, "Warszawska granica 11 nż", "24W", 0],
+			[1203, "Warszawska granica 12 nż", "21W", 0],
+			[30, "Warszawska ZS. Samoch. 03", "8W", 0],
+			[29, "Warszawska ZS. Samoch. 04", "5W", 0],
+			[28, "Warszawska ZS. Spoż. 01", "6W", 0],
+			[27, "Warszawska ZS. Spoż. 02", "3W", 0]
+		]
+	],
+	[
+		373,
+		"Wieniawskiego",
+		[
+			[1503, "Wieniawskiego / Dunikowskiego 09 nż", "60E", 0],
+			[1510, "Wieniawskiego / Dunikowskiego 10 nż", "65E", 0],
+			[1505, "Wieniawskiego / Karpa 05 nż", "56E", 0],
+			[1511, "Wieniawskiego / Karpa 06 nż", "61E", 0],
+			[1501, "Wieniawskiego / Niemaszków 03 nż", "54E", 0],
+			[1509, "Wieniawskiego / Niemaszków 04 nż", "55E", 0],
+			[1504, "Wieniawskiego / Słonecznikowa 11 nż", "62E", 0],
+			[1500, "Wieniawskiego / Słonecznikowa 12 nż", "15C", 0],
+			[1506, "Wieniawskiego / Sulikowskiego 01", "52E", 0],
+			[1507, "Wieniawskiego / Sulikowskiego 02", "51E", 0],
+			[1508, "Wieniawskiego działki 07 nż", "58E", 0],
+			[1502, "Wieniawskiego działki 08 nż", "63E", 0]
+		]
+	],
+	[
+		388,
+		"Wierchowa",
+		[
+			[1542, "Wierchowa I 02 nż", "68E", 0],
+			[1543, "Wierchowa II 04 nż", "70E", 0],
+			[1547, "Wierchowa III 06 nż", "72E", 0]
+		]
+	],
+	[
+		28,
+		"Wiktora",
+		[
+			[84, "Wiktora / Stojałowskiego 04 nż", "7G", 0],
+			[83, "Wiktora / Witosa 02 nż", "5G", 0],
+			[85, "Wiktora park 01 nż", "6G", 0]
+		]
+	],
+	[
+		131,
+		"Wincentego Pola",
+		[
+			[1138, "Wincentego Pola Politechnika 01", "145G", 0],
+			[1077, "Wincentego Pola Politechnika 02", "144G", 0]
+		]
+	],
+	[
+		19,
+		"Wita Stwosza",
+		[
+			[62, "Wita Stwosza / Langiewicza 02", "16G", 0],
+			[58, "Wita Stwosza / Wyspiańskiego 05", "13G", 0],
+			[59, "Wita Stwosza / Wyspiańskiego 06", "66G", 0],
+			[61, "Wita Stwosza kościół 03", "15G", 0],
+			[60, "Wita Stwosza kościół 04", "14G", 0],
+			[63, "Wita Stwosza pętla 01", "51G", 0]
+		]
+	],
+	[
+		364,
+		"Witolda",
+		[
+			[216, "Witolda seminarium 01 nż", "146D", 0],
+			[217, "Witolda seminarium 02 nż", "137D", 0]
+		]
+	],
+	[
+		17,
+		"Witosa",
+		[
+			[78, "Witosa / Langiewicza 02 nż", "11F", 0],
+			[912, "Witosa / Panoramiczna 01 nż", "14F", 0],
+			[52, "Witosa / Solarza 07", "1G", 0],
+			[53, "Witosa / Wiktora 05", "3G", 0],
+			[54, "Witosa / Wyspiańskiego 06", "2G", 0],
+			[51, "Witosa Jedn. Wojskowa 08", "4G", 0],
+			[1012, "Witosa park 03 nż", "12F", 0],
+			[55, "Witosa park 04 nż", "5F", 0]
+		]
+	],
+	[
+		18,
+		"Wyspiańskiego",
+		[
+			[1287, "Wyspiańskiego / German 04 nż", "82G", 0],
+			[1175, "Wyspiańskiego / Strzelnicza 03 nż", "83G", 0],
+			[57, "Wyspiańskiego stadion 01", "11G", 0],
+			[56, "Wyspiańskiego stadion 02", "12G", 0]
+		]
+	],
+	[
+		144,
+		"Wywrockiego",
+		[
+			[1213, "Wywrockiego / Jagodowa 01 nż", "119G", 0],
+			[1214, "Wywrockiego / Jagodowa 04 nż", "122G", 0],
+			[1215, "Wywrockiego / Potokowa 03 nż", "117G", 0],
+			[1216, "Wywrockiego / Potokowa 06 nż", "124G", 0],
+			[1212, "Wywrockiego / Strzelnicza 02 nż", "120G", 0],
+			[1223, "Wywrockiego rondo 08 nż", "126G", 0]
+		]
+	],
+	[
+		9,
+		"Wyzwolenia",
+		[
+			[306, "Wyzwolenia / Brydaka 08", "11E", 0],
+			[305, "Wyzwolenia / Iranka-Osmeckiego 06", "9E", 0],
+			[334, "Wyzwolenia / Krakowska 12 nż", "15E", 0],
+			[24, "Wyzwolenia / Lubelska 02", "5E", 0],
+			[333, "Wyzwolenia / Mikołajczyka 09 nż", "16E", 0],
+			[309, "Wyzwolenia / Ofiar Katynia 07", "14E", 0],
+			[315, "Wyzwolenia / Ofiar Katynia 10", "13E", 0],
+			[308, "Wyzwolenia / Okulickiego 03", "10E", 0],
+			[26, "Wyzwolenia / Warszawska 01", "8E", 0],
+			[307, "Wyzwolenia kościół 05", "12E", 0],
+			[25, "Wyzwolenia WORD 04", "7E", 0]
+		]
+	],
+	[
+		82,
+		"Zaczernie",
+		[
+			[1204, "Miłocin 03 nż", "13W", 0],
+			[1205, "Miłocin 60 nż", "16W", 0],
+			[1499, "Zaczernie 07 nż", "35W", 1],
+			[1217, "Zaczernie 14 nż", "147W", 1],
+			[1207, "Zaczernie 56", "40W", 1],
+			[1231, "Zaczernie bloki 19 nż", "175W", 1],
+			[1230, "Zaczernie bloki 20 nż", "177W", 1],
+			[1208, "Zaczernie browar 15 nż", "44W", 1],
+			[1209, "Zaczernie browar 16 nż", "39W", 1],
+			[1229, "Zaczernie cmentarz 17 nż", "176W", 1],
+			[1441, "Zaczernie cmentarz 22 nż", "182W", 1],
+			[1220, "Zaczernie Cyfrowafoto 01 nż", "179W", 1],
+			[1219, "Zaczernie Cyfrowafoto 02 nż", "178W", 1],
+			[1218, "Zaczernie ML System / Fibrain 03", "180W", 1]
+		]
+	],
+	[
+		62,
+		"Załęska",
+		[
+			[1162, "Załęska / Brzozowa 09 nż", "166D", 0],
+			[1161, "Załęska / Brzozowa 10 nż", "159D", 0],
+			[271, "Załęska / Konf. Barskich 01 nż", "10D", 0],
+			[270, "Załęska / Konf. Barskich 02 nż", "7D", 0],
+			[276, "Załęska / Rzecha 03 nż", "11D", 0],
+			[1152, "Załęska / Rzecha 04 nż", "93D", 0],
+			[1153, "Załęska / Rzecha 05 nż", "106D", 0],
+			[1164, "Załęska Zakład Karny 06 nż", "157D", 0],
+			[1165, "Załęska Zakład Karny 07 nż", "174D", 0],
+			[1163, "Załęska Zakład Karny 08", "16D", 0]
+		]
+	],
+	[
+		142,
+		"Zawiszy Czarnego",
+		[
+			[1140, "Zawiszy Czarnego / Podgórska 01 nż", "16J", 0],
+			[1139, "Zawiszy Czarnego / Podgórska 02 nż", "17J", 0],
+			[1142, "Zawiszy Czarnego 03 nż", "18J", 0],
+			[1141, "Zawiszy Czarnego 04 nż", "19J", 0]
+		]
+	],
+	[
+		118,
+		"Zwięczycka",
+		[
+			[788, "Zwięczycka / Podkarpacka 02 nż", "49B", 0],
+			[787, "Zwięczycka MPWiK 05", "54B", 0],
+			[958, "Zwięczycka staw 03 nż", "108B", 0],
+			[791, "Zwięczycka staw 04 nż", "101B", 0]
+		]
+	],
+	[
+		130,
+		"Żołnierzy 9 Dywizji Piechoty",
+		[
+			[1061, "Żołnierzy 9 Dyw. Piechoty 01 nż", "14J", 0],
+			[1062, "Żołnierzy 9 Dyw. Piechoty 02 nż", "15J", 0]
+		]
+	],
+	[58, "Żołnierzy I Armii Wojska Polskiego", [[247, "Żołnierzy I Armii Wojska Polskiego 02", "91D", 0]]],
+	[3, "Żółkiewskiego", [[9, "Żółkiewskiego / Kochanowskiego 01 nż", "9A", 0]]]
+]
