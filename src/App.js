@@ -1,10 +1,13 @@
 import { NavLink, Route, Routes } from "react-router-dom";
 import "./assets/css/App.css";
 
-import Table from "./pages/Table";
+import Tabel from "./pages/Tabel";
+import Tabels from "./pages/Tabels";
 import Map from "./pages/Map";
+import { useState } from "react";
 
 function App() {
+	const [busID, setBusID] = useState("");
 	return (
 		<>
 			<nav>
@@ -17,7 +20,7 @@ function App() {
 						}
 					}}>
 					<li>
-						<NavLink to="/table">Table</NavLink>
+						<NavLink to="/tabels">Table</NavLink>
 					</li>
 					<li>
 						<NavLink to="/">Map</NavLink>
@@ -39,8 +42,12 @@ function App() {
 					element={<Map />}
 				/>
 				<Route
-					path="/table"
-					element={<Table />}
+					path="/tabel"
+					element={<Tabel busID={busID} />}
+				/>
+				<Route
+					path="/tabels"
+					element={<Tabels setID={setBusID} />}
 				/>
 			</Routes>
 		</>

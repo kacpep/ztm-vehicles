@@ -1,7 +1,10 @@
 var parseString = require("xml2js").parseString;
 
 module.exports = (req, res) => {
-	fetch("http://einfo.erzeszow.pl/Home/GetTimetableReal?busStopId=20")
+	let id = req.query.id;
+	!id ? (id = 1) : null;
+
+	fetch(`http://einfo.erzeszow.pl/Home/GetTimetableReal?busStopId=${id}`)
 		.then((res) => res.text())
 		.then((text) => {
 			parseString(text, function (err, results) {
@@ -21,7 +24,7 @@ module.exports = (req, res) => {
 					time: results.Schedules.$.time,
 					busStopName: results.Schedules.Stop[0].$.name,
 					busStopID: results.Schedules.Stop[0].$.id,
-					busses: tableBuses.slice(0,6),
+					busses: tableBuses,
 				};
 
 				return res.send({

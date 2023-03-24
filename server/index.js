@@ -9,7 +9,8 @@ app.use(express.json());
 app.use(cors());
 app.use(helmet());
 
-app.get("/api/tabels", require("./tabels/tabel"));
+app.get("/api/tabel", require("./tabels/tabel"));
+app.get("/api/tabels", require("./tabels/all"));
 
 app.listen(PORT, () => {
 	console.log(`Server listening on ${PORT}`);
