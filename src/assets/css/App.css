@@ -4,7 +4,7 @@ nav {
 	justify-content: center;
 	align-items: center;
 	position: relative;
-	z-index: 999;
+	z-index: 99;
 }
 nav ul {
 	position: absolute;

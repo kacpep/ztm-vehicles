@@ -7,6 +7,7 @@ fetch("http://einfo.erzeszow.pl/Home/GetBusStopList?q=&ttId=0")
 
 module.exports = (req, res) => {
 	let data = [];
+	
 	allBusStpos.forEach((street) => {
 		street[2].forEach((busStop) => {
 			data.push({ id: busStop[0], name: busStop[1] });

@@ -1,26 +1,26 @@
-import { useLocation, useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import "../assets/css/Tabel.css";
 function Tabel({ busID }) {
 	const [screen, setScreen] = useState({ busses: [0, 1] });
-	const navigate = useNavigate();
+	// const navigate = useNavigate();
 	const location = useLocation();
 	useEffect(() => {
-		fetch(`http://127.0.0.1:4000/api/tabel?id=${busID}`)
+		fetch(`https://api.ztm.kacpep.dev//api/tabel?id=${busID}`)
 			.then((res) => res.json())
 			.then((josn) => {
 				setScreen(josn.data);
 			});
 
 		const interval = setInterval(() => {
-			fetch(`http://127.0.0.1:4000/api/tabel?id=${busID}`)
+			fetch(`https://api.ztm.kacpep.dev//api/tabel?id=${busID}`)
 				.then((res) => res.json())
 				.then((josn) => {
 					setScreen(josn.data);
 				});
 		}, 5000);
 		return () => clearInterval(interval);
-	}, [navigate]);
+	}, [location, busID]);
 
 	return (
 		<div>

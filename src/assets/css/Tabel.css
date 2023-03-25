@@ -1,6 +1,6 @@
 .table {
 	background-color: rgb(43, 43, 43);
-	margin: 0 auto;
+	margin: 20px auto 0 auto;
 	/* height: 20px; */
 	display: flex;
 	flex-direction: column;
@@ -19,7 +19,7 @@ h3 {
 	background-color: rgb(92, 92, 92);
 	color: orange;
 	padding: 10px 20px 30px 20px;
-	z-index: 5;
+	z-index: 4;
 	width: 88%;
 	min-height: 195px;
 	overflow: hidden;

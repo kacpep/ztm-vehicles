@@ -7,12 +7,12 @@ function Tabels({ setID }) {
 	const navigate = useNavigate();
 
 	useEffect(() => {
-		fetch("http://127.0.0.1:4000/api/tabels")
+		fetch("https://api.ztm.kacpep.dev//api/tabels")
 			.then((res) => res.json())
 			.then((json) => {
 				setBusStop(json.data);
 			});
-	}, [navigate]);
+	}, [location]);
 
 	const handleClick = (e) => {
 		setID(e.target.id);
@@ -26,7 +26,7 @@ function Tabels({ setID }) {
 		ul = document.getElementById("allBusStops");
 		li = ul.querySelectorAll("li");
 		for (i = 0; i < li.length; i++) {
-			a = li[i].getElementsByTagName("a")[0];
+			a = li[i].getElementsByTagName("p")[0];
 			txtValue = a.textContent || a.innerText;
 			if (txtValue.toUpperCase().indexOf(filter) > -1) {
 				li[i].style.display = "";
@@ -53,13 +53,13 @@ function Tabels({ setID }) {
 							key={index}
 							id={stop.id}
 							className="busStop"
-							onClick={(e) => handleClick(e)}>
-							<a
+							onClick={(event) => handleClick(event)}>
+							<p
 								id={stop.id}
-								href="#"
-								onClick={(e) => handleClick(e)}>
+								
+								onClick={(event) => handleClick(event)}>
 								{stop.name}
-							</a>
+							</p>
 						</li>
 					))
 				) : (
