@@ -2,6 +2,9 @@ var parseString = require("xml2js").parseString;
 const axios = require("axios").default;
 
 var nowTracked = [];
+setInterval(function () {
+	nowTracked = [];
+}, 300000);
 
 module.exports = (req, res) => {
 	let id = req.query.id;
@@ -45,19 +48,15 @@ module.exports = (req, res) => {
 	if (nowTracked.find(({ busStopID }) => parseInt(busStopID) == parseInt(id))) {
 		let test = nowTracked.find(({ busStopID, lastTime }) => busStopID == id && lastTime > Date.now() - 5000);
 		if (test) {
-			console.log("1");
 			return res.send({
 				code: 200,
 				message: "correct1",
 				data: test,
 			});
 		} else {
-			console.log("2");
-
 			get();
 		}
 	} else {
-		console.log("3");
 		get();
 	}
 };
