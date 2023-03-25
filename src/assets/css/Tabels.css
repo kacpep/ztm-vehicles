@@ -1,17 +1,28 @@
-h2 {
+.allTabels__box h2 {
 	margin: 30px 0;
 	text-align: center;
 }
+.allTabels__box h3 {
+	text-align: center;
+	margin: 10px 0;
+}
 .busStop {
-	background-color: rgb(206, 206, 206);
-	padding: 10px;
+	background-color: #93c5fd;
 	margin: 5px 2px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	color: #000;
 }
-.busStop a {
-	text-decoration: none;
-	color: inherit;
+.allTabels__box hr{
+	margin: 30px 2px;
 }
-input {
+.busStop p {
+	width: 90%;
+	padding: 13px;
+}
+#searchBusStop {
 	padding: 0 8px;
 	vertical-align: middle;
 	border-radius: 2px;
@@ -23,5 +34,14 @@ input {
 	font-size: 16px;
 	line-height: 18px;
 	font-weight: normal;
-    margin: 10px;
+	margin: 10px;
+}
+
+.star {
+	width: 30px;
+	font-size: 15px;
+	filter: contrast(0) brightness(20);
+}
+.star.star--active {
+	filter: contrast(1) brightness(1);
 }

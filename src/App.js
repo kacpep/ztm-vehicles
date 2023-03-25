@@ -7,7 +7,7 @@ import Map from "./pages/Map";
 import { useState } from "react";
 
 function App() {
-	const [busID, setBusID] = useState(1);
+	const [busID, setBusID] = useState(0);
 	return (
 		<>
 			<nav>

@@ -1,4 +1,4 @@
-.table {
+.tabel {
 	background-color: rgb(43, 43, 43);
 	margin: 20px auto 0 auto;
 	/* height: 20px; */
@@ -11,7 +11,7 @@
 	width: 96%;
 	padding: 5px;
 }
-h3 {
+.tabel h3 {
 	color: gray;
 	margin-top: 5px;
 }
@@ -34,6 +34,9 @@ h3 {
 	margin-top: 2px;
 	font-size: small;
 }
+.screen p.error__text {
+	justify-content: flex-start;
+}
 .screen p.time {
 	justify-content: flex-end;
 	margin-top: 10px;
@@ -44,18 +47,18 @@ h3 {
 .pipe {
 	width: 40px;
 	background-color: rgb(32, 32, 32);
-	height:calc(100vh - 14px);
+	height: calc(100vh - 14px);
 	margin-left: 50px;
 	position: absolute;
 	top: 14px;
 	z-index: 1;
 }
 .blinking {
-  animation: blinker 1.5s  step-start infinite;
+	animation: blinker 1.5s step-start infinite;
 }
 
 @keyframes blinker {
-  50% {
-    opacity: 0;
-  }
+	50% {
+		opacity: 0;
+	}
 }

@@ -1,11 +1,14 @@
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import "../assets/css/Tabel.css";
 function Tabel({ busID }) {
 	const [screen, setScreen] = useState({ busses: [0, 1] });
-	// const navigate = useNavigate();
+	const navigate = useNavigate();
 	const location = useLocation();
 	useEffect(() => {
+		if (!busID) {
+			busID = sessionStorage.getItem("busID");
+		}
 		fetch(`https://api.ztm.kacpep.dev//api/tabel?id=${busID}`)
 			.then((res) => res.json())
 			.then((josn) => {
@@ -24,7 +27,7 @@ function Tabel({ busID }) {
 
 	return (
 		<div>
-			<div className="table">
+			<div className="tabel">
 				<h3>{screen.busStopName}</h3>
 				<div className="screen">
 					{screen.busses.length ? (
@@ -41,7 +44,12 @@ function Tabel({ busID }) {
 							</p>
 						))
 					) : (
-						<div>pusto!!!!!!!!!!</div>
+						<div>
+							Brak danych! :(
+							<p className="error__text">
+								{/* contact: &nbsp; <a href="https://kacpep.dev">kacpep</a>,&nbsp; <a href="https://github.com/DrFrezze71">DrFrezze71</a> */}
+							</p>{" "}
+						</div>
 					)}
 
 					<p className="time">GODZINA: {screen.time}</p>
