@@ -25,14 +25,12 @@ function Tabels({ setID }) {
 		e.target.classList.toggle("star--active");
 		let newBusStop = { id: e.target.previousElementSibling.id, name: e.target.previousElementSibling.textContent };
 		let arr = JSON.parse(localStorage.getItem("favoritesBusStops")) || [];
-		console.log(arr.find(({ id }) => id === e.target.previousElementSibling.id));
 		if (!arr.find(({ id }) => id === e.target.previousElementSibling.id)) {
 			arr.push(newBusStop);
 		} else {
 			arr.splice(arr.indexOf(newBusStop), 1);
 		}
 		localStorage.setItem("favoritesBusStops", JSON.stringify(arr));
-		// console.log(localStorage.getItem("favoritesBusStops"));
 		setFavoritesBusStops(JSON.parse(localStorage.getItem("favoritesBusStops")));
 	};
 
@@ -103,7 +101,7 @@ function Tabels({ setID }) {
 								{stop.name}
 							</p>
 							<div
-								className={favoritesBusStops.find(({ id }) => id == stop.id) ? "star star--active" : "star"}
+								className={favoritesBusStops ? (favoritesBusStops.find(({ id }) => id == stop.id) ? "star star--active" : "star") : "star"}
 								onClick={(event) => {
 									handleClickStar(event);
 								}}>
