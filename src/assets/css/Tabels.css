@@ -15,12 +15,13 @@
 	align-items: center;
 	color: #000;
 }
-.allTabels__box hr{
+.allTabels__box hr {
 	margin: 30px 2px;
 }
 .busStop p {
 	width: 90%;
 	padding: 13px;
+	cursor: pointer;
 }
 #searchBusStop {
 	padding: 0 8px;

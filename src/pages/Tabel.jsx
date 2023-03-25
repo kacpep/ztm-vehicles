@@ -1,22 +1,25 @@
-import { useLocation, useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import "../assets/css/Tabel.css";
+
+const url = "http://127.0.0.1:4000";
+
 function Tabel({ busID }) {
 	const [screen, setScreen] = useState({ busses: [0, 1] });
-	const navigate = useNavigate();
 	const location = useLocation();
+
 	useEffect(() => {
 		if (!busID) {
 			busID = sessionStorage.getItem("busID");
 		}
-		fetch(`https://api.ztm.kacpep.dev//api/tabel?id=${busID}`)
+		fetch(`${url}/api/tabel?id=${busID}`)
 			.then((res) => res.json())
 			.then((josn) => {
 				setScreen(josn.data);
 			});
 
 		const interval = setInterval(() => {
-			fetch(`https://api.ztm.kacpep.dev//api/tabel?id=${busID}`)
+			fetch(`${url}/api/tabel?id=${busID}`)
 				.then((res) => res.json())
 				.then((josn) => {
 					setScreen(josn.data);

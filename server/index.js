@@ -13,7 +13,7 @@ const corsOptions = {
 };
 
 app.use(cors(corsOptions));
-app.use(helmet());
+// app.use(helmet());
 
 app.get("/api/tabel", require("./tabels/tabel"));
 app.get("/api/tabels", require("./tabels/all"));

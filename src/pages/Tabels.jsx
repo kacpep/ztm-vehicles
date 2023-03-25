@@ -1,6 +1,9 @@
 import { useLocation, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import "../assets/css/Tabels.css";
+
+const url = "http://127.0.0.1:4000";
+
 function Tabels({ setID }) {
 	const [busStop, setBusStop] = useState("");
 	const [favoritesBusStops, setFavoritesBusStops] = useState("");
@@ -9,7 +12,7 @@ function Tabels({ setID }) {
 
 	useEffect(() => {
 		setFavoritesBusStops(JSON.parse(localStorage.getItem("favoritesBusStops")));
-		fetch("https://api.ztm.kacpep.dev//api/tabels")
+		fetch(`${url}/api/tabels`)
 			.then((res) => res.json())
 			.then((json) => {
 				setBusStop(json.data);
@@ -22,16 +25,19 @@ function Tabels({ setID }) {
 		navigate("/tabel");
 	};
 	const handleClickStar = (e) => {
-		e.target.classList.toggle("star--active");
 		let newBusStop = { id: e.target.previousElementSibling.id, name: e.target.previousElementSibling.textContent };
+		console.log(newBusStop);
+
 		let arr = JSON.parse(localStorage.getItem("favoritesBusStops")) || [];
 		if (!arr.find(({ id }) => id === e.target.previousElementSibling.id)) {
 			arr.push(newBusStop);
+			e.target.classList.add("star--active");
 		} else {
 			arr.splice(arr.indexOf(newBusStop), 1);
+			e.target.classList.remove("star--active");
 		}
 		localStorage.setItem("favoritesBusStops", JSON.stringify(arr));
-		setFavoritesBusStops(JSON.parse(localStorage.getItem("favoritesBusStops")));
+		setFavoritesBusStops(arr);
 	};
 
 	const searching = () => {
@@ -62,7 +68,7 @@ function Tabels({ setID }) {
 				}}
 				placeholder="Search for names.."
 				title="Type in a name"></input>
-			{favoritesBusStops ? (
+			{favoritesBusStops.length ? (
 				<>
 					<h3>Favorite</h3>
 					<ul className="favoritBusStops">
@@ -93,7 +99,6 @@ function Tabels({ setID }) {
 					busStop.map((stop, index) => (
 						<li
 							key={index}
-							id={stop.id}
 							className="busStop">
 							<p
 								id={stop.id}
@@ -101,7 +106,9 @@ function Tabels({ setID }) {
 								{stop.name}
 							</p>
 							<div
-								className={favoritesBusStops ? (favoritesBusStops.find(({ id }) => id == stop.id) ? "star star--active" : "star") : "star"}
+								className={
+									favoritesBusStops ? (favoritesBusStops.find(({ id }) => parseInt(id) === stop.id) ? "star star--active" : "star") : "star"
+								}
 								onClick={(event) => {
 									handleClickStar(event);
 								}}>
