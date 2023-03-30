@@ -39,7 +39,7 @@ function App() {
 			<Routes>
 				<Route
 					path="/"
-					element={<Map />}
+					element={<Map setID={setBusID}/>}
 				/>
 				<Route
 					path="/tabel"
