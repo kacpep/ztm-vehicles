@@ -1,18 +1,17 @@
-let allBusStpos = "";
-fetch("http://einfo.erzeszow.pl/Home/GetBusStopList?q=&ttId=0")
+var allBusStpos = "";
+var data = [];
+
+fetch("http://einfo.erzeszow.pl/Home/GetMapBusStopList?ttId=0")
 	.then((res) => res.json())
 	.then((json) => {
 		allBusStpos = json;
+
+		allBusStpos.forEach((busStop) => {
+			data.push({ id: busStop[0], name: busStop[1], x: busStop[5], y: busStop[4] });
+		});
 	});
 
 module.exports = (req, res) => {
-	let data = [];
-	
-	allBusStpos.forEach((street) => {
-		street[2].forEach((busStop) => {
-			data.push({ id: busStop[0], name: busStop[1] });
-		});
-	});
 	return res.send({
 		code: 200,
 		message: "correct",

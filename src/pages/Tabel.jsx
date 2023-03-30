@@ -1,16 +1,18 @@
 import { useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import "../assets/css/Tabel.css";
+import { useCookies } from "react-cookie";
 
 const url = "http://127.0.0.1:4000";
 
 function Tabel({ busID }) {
-	const [screen, setScreen] = useState({ busses: [0, 1] });
+	const [cookies, setCookie] = useCookies(["busID"]);
+	const [screen, setScreen] = useState({ busses: [{ dir: "Loading...", timeTo: 10 }] });
 	const location = useLocation();
 
 	useEffect(() => {
 		if (!busID) {
-			busID = sessionStorage.getItem("busID");
+			busID = cookies.busID;
 		}
 		fetch(`${url}/api/tabel?id=${busID}`)
 			.then((res) => res.json())

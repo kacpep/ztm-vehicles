@@ -42,6 +42,7 @@
 	width: 30px;
 	font-size: 15px;
 	filter: contrast(0) brightness(20);
+	cursor: copy;
 }
 .star.star--active {
 	filter: contrast(1) brightness(1);

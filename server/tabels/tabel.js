@@ -8,7 +8,10 @@ setInterval(function () {
 
 module.exports = (req, res) => {
 	let id = req.query.id;
-	!id ? (id = 1) : null;
+
+	if (!id || id == "undefined" || id == null) {
+		id = 1;
+	}
 	const get = () => {
 		axios(`http://einfo.erzeszow.pl/Home/GetTimetableReal?busStopId=${id}`).then((response) => {
 			// console.log(response.data);
