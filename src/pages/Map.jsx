@@ -1,83 +1,90 @@
 import Icon from "../assets/images/bus.png";
 import "../assets/css/Map.css";
-import { useCookies } from "react-cookie";
-import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useEffect, useMemo, useState, useCallback } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
+import { GoogleMap, Marker, InfoWindow, useLoadScript } from "@react-google-maps/api";
+
+let url = "http://127.0.0.1:4000";
 
 function Map({ setID }) {
-	const [cookies, setCookie] = useCookies(["busID"]);
-	let location = useLocation();
-	window.addEventListener("load", initialize);
-	var marker_size = 25;
+	const [busStop, setBusStop] = useState([]);
+	const location = useLocation();
+	const [mapRef, setMapRef] = useState();
+	const [isOpen, setIsOpen] = useState(false);
+	const [infoWindowData, setInfoWindowData] = useState();
+	const navigate = useNavigate();
 
-	if (window.innerWidth < 1000) {
-		marker_size = 35;
-	}
+	const { isLoaded } = useLoadScript({
+		googleMapsApiKey: null,
+	});
+	const center = useMemo(() => ({ lat: 50.041124423263156, lng: 21.999090892052912 }), []);
 	useEffect(() => {
-		initialize();
-	}, [location]);
-	function initialize() {
-		var map_options = {
-			center: new google.maps.LatLng(50.041124423263156, 21.999090892052912),
-			zoom: 14,
-			mapTypeId: google.maps.MapTypeId.ROADMAP,
-		};
-		var map_div = document.getElementById("map_canvas");
-		var google_map = new google.maps.Map(map_div, map_options);
-
-		var info_window = new google.maps.InfoWindow({
-			content: "loading",
-		});
-		//
-
-		fetch("https://api.ztm.kacpep.dev/api/tabels")
+		fetch(`${url}/api/tabels`)
 			.then((res) => res.json())
 			.then((json) => {
-				var allBusStpos = json.data;
-				allBusStpos.forEach((stop) => {
-					var t = [];
-					var x = [];
-					var y = [];
-					var h = [];
-
-					t.push(stop.name);
-					x.push(stop.y);
-					y.push(stop.x);
-					h.push(`<p><strong>${stop.name}</strong><br/><br /> <a id='${stop.id}' class="view" href="/tabel">Zobacz!</a > </p>`);
-
-					var i = 0;
-
-					var icon = {
-						url: Icon, // url
-						scaledSize: new google.maps.Size(marker_size, marker_size), // size
-					};
-
-					var m = new google.maps.Marker({
-						map: google_map,
-						animation: google.maps.Animation.DROP,
-						title: t[i],
-						position: new google.maps.LatLng(x[i], y[i]),
-						html: h[i],
-						icon: icon,
-					});
-
-					google.maps.event.addListener(m, "click", function (e) {
-						info_window.setContent(this.html);
-						info_window.open(google_map, this);
-						setCookie("busID", stop.id, { path: "/" });
-
-						setID(stop.id);
-					});
-
-					i++;
-				});
+				setBusStop(json.data);
 			});
-	}
+	}, [location]);
 
+	const onLoad = useCallback(function callback(map) {
+		setMapRef(map);
+	}, []);
+
+	const handleMarkerClick = (id, lat, lng, name) => {
+		mapRef?.panTo({ lat, lng });
+		setInfoWindowData({ id, name });
+		setIsOpen(true);
+	};
+	const OpenTabel = (e) => {
+		setID(e.target.id);
+		navigate("/tabel")
+	};
 	return (
-		<div
-			id="map_canvas"
-			style={{ width: "100%", height: "100vh" }}></div>
+		<>
+			{!isLoaded ? (
+				<h1>Loading...</h1>
+			) : (
+				<GoogleMap
+					mapContainerClassName="map-container"
+					center={center}
+					zoom={10}
+					mapContainerStyle={{ height: "100vh", position: "relative" }}
+					onClick={() => setIsOpen(false)}
+					onLoad={onLoad}>
+					{busStop
+						? busStop.map((stop, i) => (
+								<Marker
+									key={i}
+									position={{ lat: stop.y, lng: stop.x }}
+									icon={{ url: Icon, scaledSize: new window.google.maps.Size(30, 30) }}
+									styles={{ imageSizes: "10px" }}
+									onClick={() => {
+										handleMarkerClick(i, stop.y, stop.x, stop.name);
+									}}>
+									{isOpen && infoWindowData?.id === i && (
+										<InfoWindow
+											onCloseClick={() => {
+												setIsOpen(false);
+											}}>
+											<>
+												<h3>{infoWindowData.name}</h3>
+												<button
+													onClick={(e) => {
+														OpenTabel(e);
+													}}
+													className="button-9"
+													id={stop.id}>
+													Show Tabel
+												</button>
+											</>
+										</InfoWindow>
+									)}
+								</Marker>
+						  ))
+						: null}
+				</GoogleMap>
+			)}
+		</>
 	);
 }
 export default Map;

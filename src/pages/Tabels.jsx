@@ -59,7 +59,7 @@ function Tabels({ setID }) {
 	};
 
 	return (
-		<div className="allTabels__box">
+		<div className="allTabels__box content" >
 			<h2>All bus stops</h2>
 			<input
 				id="searchBusStop"

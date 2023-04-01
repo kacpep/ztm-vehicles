@@ -31,7 +31,7 @@ function Tabel({ busID }) {
 	}, [location, busID]);
 
 	return (
-		<div>
+		<div className="content">
 			<div className="tabel">
 				<h3>{screen.busStopName}</h3>
 				<div className="screen">

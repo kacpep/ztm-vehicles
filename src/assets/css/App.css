@@ -3,15 +3,17 @@ nav {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	position: relative;
+	position: fixed;
 	z-index: 99;
+	width: 100vw;
+	top: 0;
 }
 nav ul {
 	position: absolute;
 	width: 100vw;
 	height: 100vh;
-	background-color: #2563EB;
-	top: -100vh;
+	background-color: #2563eb;
+	top: -150vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -29,6 +31,8 @@ nav ul li a {
 #slideNav ~ .arrow {
 	transition: all 0.4s;
 	cursor: pointer;
+	position: sticky;
+	top: 15px;
 }
 #slideNav.active ~ .arrow {
 	transform: rotate(225deg);
@@ -39,4 +43,7 @@ nav ul li a {
 }
 #slideNav.active {
 	top: 0;
+}
+.content{
+	margin-top: 50px;
 }

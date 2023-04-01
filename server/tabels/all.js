@@ -7,7 +7,7 @@ fetch("http://einfo.erzeszow.pl/Home/GetMapBusStopList?ttId=0")
 		allBusStpos = json;
 
 		allBusStpos.forEach((busStop) => {
-			data.push({ id: busStop[0], name: busStop[1], x: busStop[5], y: busStop[4] });
+			data.push({ id: busStop[0], name: busStop[1], x: busStop[4], y: busStop[5] });
 		});
 	});
 
