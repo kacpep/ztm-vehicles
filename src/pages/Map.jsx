@@ -4,7 +4,7 @@ import { useEffect, useMemo, useState, useCallback } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { GoogleMap, Marker, InfoWindow, useLoadScript } from "@react-google-maps/api";
 
-let url = "http://127.0.0.1:4000";
+const url = "http://127.0.0.1:4000";
 
 function Map({ setID }) {
 	const [busStop, setBusStop] = useState([]);
@@ -67,7 +67,11 @@ function Map({ setID }) {
 					clickableIcons={false}
 					mapContainerStyle={{ height: "100vh", position: "relative" }}
 					onClick={() => setIsOpen(false)}
-					onLoad={onLoad}>
+					onLoad={onLoad}
+					options={{ streetViewControl: false, disableDefaultUI: true }}
+					ptions={{
+						gestureHandling: "greedy",
+					}}>
 					{busStop
 						? busStop.map((stop, i) => (
 								<Marker

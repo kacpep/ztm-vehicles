@@ -52,6 +52,7 @@
 	position: absolute;
 	top: 14px;
 	z-index: 1;
+	left: 10px;
 }
 .blinking {
 	animation: blinker 1.5s step-start infinite;
