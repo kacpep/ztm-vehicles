@@ -37,8 +37,9 @@ function Map({ setID }) {
 	};
 	const OpenTabel = (e) => {
 		setID(e.target.id);
-		navigate("/tabel")
+		navigate("/tabel");
 	};
+
 	return (
 		<>
 			{!isLoaded ? (
@@ -48,6 +49,7 @@ function Map({ setID }) {
 					mapContainerClassName="map-container"
 					center={center}
 					zoom={10}
+					clickableIcons={false}
 					mapContainerStyle={{ height: "100vh", position: "relative" }}
 					onClick={() => setIsOpen(false)}
 					onLoad={onLoad}>

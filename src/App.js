@@ -20,7 +20,7 @@ function App() {
 						}
 					}}>
 					<li>
-						<NavLink to="/tabels">Table</NavLink>
+						<NavLink to="/tabels">Tabels</NavLink>
 					</li>
 					<li>
 						<NavLink to="/">Map</NavLink>
