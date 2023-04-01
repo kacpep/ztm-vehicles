@@ -3,13 +3,12 @@ nav {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	position: fixed;
 	z-index: 99;
 	width: 100vw;
 	top: 0;
 }
 nav ul {
-	position: absolute;
+	position: fixed;
 	width: 100vw;
 	height: 100vh;
 	background-color: #2563eb;
@@ -20,6 +19,7 @@ nav ul {
 	flex-direction: column;
 	list-style: none;
 	color: #fff;
+	z-index: 99;
 }
 nav ul li {
 	padding: 10px;
@@ -31,10 +31,12 @@ nav ul li a {
 #slideNav ~ .arrow {
 	transition: all 0.4s;
 	cursor: pointer;
-	position: sticky;
-	top: 15px;
+	position: absolute;
+	top: 0;
+	z-index: 100;
 }
 #slideNav.active ~ .arrow {
+	position: fixed;
 	transform: rotate(225deg);
 	margin-top: 15px;
 }
@@ -44,6 +46,10 @@ nav ul li a {
 #slideNav.active {
 	top: 0;
 }
-.content{
+.content {
 	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }

@@ -36,8 +36,17 @@
 	line-height: 18px;
 	font-weight: normal;
 	margin: 10px;
+	width: 95%;
 }
-
+.favoritBusStops{
+	width: 95%;
+}
+hr{
+	width: 95%;
+}
+#allBusStops{
+	width: 95%;
+}
 .star {
 	width: 30px;
 	font-size: 15px;

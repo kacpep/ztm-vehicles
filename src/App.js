@@ -20,13 +20,13 @@ function App() {
 						}
 					}}>
 					<li>
-						<NavLink to="/tabels">Tabels</NavLink>
+						<NavLink to="/tabels">🚏Tabels</NavLink>
 					</li>
 					<li>
-						<NavLink to="/">Map</NavLink>
+						<NavLink to="/">🗺️Map</NavLink>
 					</li>
-					<li>Transfers</li>
-					<li>Help</li>
+					<li>🚌Transfers</li>
+					<li>🆘Help</li>
 				</ul>
 				<div
 					className="arrow--down arrow"

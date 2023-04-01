@@ -43,7 +43,22 @@ function Map({ setID }) {
 	return (
 		<>
 			{!isLoaded ? (
-				<h1>Loading...</h1>
+				<div className="content">
+					<h1>Loading...</h1>
+
+					<div className="loading--center">
+						<div className="loading__wave"></div>
+						<div className="loading__wave"></div>
+						<div className="loading__wave"></div>
+						<div className="loading__wave"></div>
+						<div className="loading__wave"></div>
+						<div className="loading__wave"></div>
+						<div className="loading__wave"></div>
+						<div className="loading__wave"></div>
+						<div className="loading__wave"></div>
+						<div className="loading__wave"></div>
+					</div>
+				</div>
 			) : (
 				<GoogleMap
 					mapContainerClassName="map-container"

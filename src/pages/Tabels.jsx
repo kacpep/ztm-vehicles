@@ -14,7 +14,7 @@ function Tabels({ setID }) {
 	const navigate = useNavigate();
 
 	useEffect(() => {
-		if (cookies.favoritesBusStops) setFavoritesBusStops(cookies.favoritesBusStops );
+		if (cookies.favoritesBusStops) setFavoritesBusStops(cookies.favoritesBusStops);
 		fetch(`${url}/api/tabels`)
 			.then((res) => res.json())
 			.then((json) => {
@@ -24,7 +24,7 @@ function Tabels({ setID }) {
 
 	const handleClick = (e) => {
 		setID(e.target.id);
-		setBusStop( e.target.id);
+		setBusStop(e.target.id);
 		setCookie("busID", e.target.id, { path: "/" });
 
 		navigate("/tabel");
@@ -59,20 +59,20 @@ function Tabels({ setID }) {
 	};
 
 	return (
-		<div className="allTabels__box content" >
-			<h2>All bus stops</h2>
+		<div className="allTabels__box content">
+			<h2>All bus stops 🚏</h2>
 			<input
 				id="searchBusStop"
 				type="text"
 				onInput={() => {
 					searching();
 				}}
-				placeholder="Search for names.."
+				placeholder="🔎 Search for names.."
 				title="Type in a name"
 			/>
 			{favoritesBusStops && favoritesBusStops.length ? (
 				<>
-					<h3>Favorite</h3>
+					<h3>Favorite ⭐</h3>
 					<ul className="favoritBusStops">
 						{favoritesBusStops.map((stop, index) => (
 							<li
@@ -123,7 +123,22 @@ function Tabels({ setID }) {
 						</li>
 					))
 				) : (
-					<div>Loading..</div>
+					<>
+						<h1>Loading...</h1>
+
+						<div className="loading--center">
+							<div className="loading__wave"></div>
+							<div className="loading__wave"></div>
+							<div className="loading__wave"></div>
+							<div className="loading__wave"></div>
+							<div className="loading__wave"></div>
+							<div className="loading__wave"></div>
+							<div className="loading__wave"></div>
+							<div className="loading__wave"></div>
+							<div className="loading__wave"></div>
+							<div className="loading__wave"></div>
+						</div>
+					</>
 				)}
 			</ul>
 		</div>
