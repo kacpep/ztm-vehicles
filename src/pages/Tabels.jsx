@@ -4,7 +4,7 @@ import { useCookies } from "react-cookie";
 
 import "../assets/css/Tabels.css";
 
-const url = "https://api.ztm.kacpep.dev";
+const url = "http://127.0.0.1";
 
 function Tabels({ setID }) {
 	const [cookies, setCookie] = useCookies(["busID", "favoritesBusStops"]);
