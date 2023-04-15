@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import "../assets/css/Tabel.css";
 import { useCookies } from "react-cookie";
 
-const url = "https://api.ztm.kacpep.dev";
+const url = "http://127.0.0.1";
 
 function Tabel({ busID }) {
 	const [cookies, setCookie] = useCookies(["busID"]);
