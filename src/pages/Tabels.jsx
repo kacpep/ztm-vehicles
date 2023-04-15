@@ -35,7 +35,7 @@ function Tabels({ setID }) {
 		if (!arr.find(({ id }) => id === e.target.previousElementSibling.id)) {
 			arr.push(newBusStop);
 		} else {
-			arr.splice(arr.indexOf(newBusStop), 1);
+			arr = arr.filter((el) => el.id !== e.target.previousElementSibling.id);
 		}
 		setFavoritesBusStops(arr);
 		setCookie("favoritesBusStops", arr, { path: "/" });
@@ -138,6 +138,7 @@ function Tabels({ setID }) {
 							<div className="loading__wave"></div>
 							<div className="loading__wave"></div>
 						</div>
+						
 					</>
 				)}
 			</ul>

@@ -14,14 +14,11 @@ module.exports = (req, res) => {
 	}
 	const get = () => {
 		axios(`http://einfo.erzeszow.pl/Home/GetTimetableReal?busStopId=${id}`).then((response) => {
-			// console.log(response.data);
 			parseString(response.data, function (err, results) {
-				// console.log(results.Schedules.Stop[0].Day[0].R);
 				let buses = results.Schedules.Stop[0].Day[0].R;
 				let tableBuses = [];
 				buses
 					? buses.forEach((bus) => {
-							// console.log(bus.S[0].$);
 							tableBuses.push({
 								nr: bus.$.nr,
 								dir: bus.$.dir,

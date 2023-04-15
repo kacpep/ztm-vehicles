@@ -17,9 +17,6 @@ function Tabel({ busID }) {
 		fetch(`${url}/api/tabel?id=${busID}`)
 			.then((res) => res.json())
 			.then((josn) => {
-				for(var x = josn.data.busses.length; x  > 6; x--){
-					delete josn.data.busses[x]
-				}
 				setScreen(josn.data);
 			});
 
@@ -27,9 +24,6 @@ function Tabel({ busID }) {
 			fetch(`${url}/api/tabel?id=${busID}`)
 				.then((res) => res.json())
 				.then((josn) => {
-					for(var x = josn.data.busses.length; x  > 6; x--){
-						delete josn.data.busses[x]
-					}
 					setScreen(josn.data);
 				});
 		}, 5000);
@@ -37,44 +31,32 @@ function Tabel({ busID }) {
 	}, [location, busID]);
 
 	return (
-		<>
-		<div class="back"></div>
-		<div class="parent">
-			<div class="box">
-				<h3 class="bus_stop">{screen.busStopName}</h3>
-				<div class="legend"><p>| linia </p><p>| Przystanek Docelowy</p><p>Odjazd |</p></div>
-				<div class="box_bus">
+		<div className="content">
+			<div className="tabel">
+				<h3>{screen.busStopName}</h3>
+				<div className="screen">
+					{screen.busses.length ? (
+						screen.busses.map((bus, index) => (
+							<p key={index}>
+								{bus.nr} {bus.dir}{" "}
+								<span className={bus.timeTo < 60 ? "blinking" : null}>
+									{Math.floor(bus.timeTo / 60) > 60
+										? Math.floor(Math.floor(bus.timeTo / 60) / 60) + "h " + (Math.floor(bus.timeTo / 60) % 60) + "min"
+										: bus.timeTo > 60
+										? Math.floor(bus.timeTo / 60) + "min"
+										: "<1min"}
+								</span>
+							</p>
+						))
+					) : (
+						<div>Brak danych! :(</div>
+					)}
 
-
-				{screen.busses.length ? (
-					screen.busses.map((bus, index) => (
-						<div className="inside_box" key={index}>
-							<div className="bus stop">{bus.nr} {bus.dir}{" "}</div>
-							
-							<span className={ [bus.timeTo < 60 ? "blinking" : null,"bus time"].join(' ')  }>
-								{Math.floor(bus.timeTo / 60) > 60
-									? Math.floor(Math.floor(bus.timeTo / 60) / 60) + "h " + (Math.floor(bus.timeTo / 60) % 60) + "min"
-									: bus.timeTo > 60
-									? Math.floor(bus.timeTo / 60) + "min"
-									: "<1min"}
-							</span>
-						</div>
-					))
-				) : (
-					<div>
-						Brak danych! :(
-						<p className="error__text">
-							{/* contact: &nbsp; <a href="https://kacpep.dev">kacpep</a>,&nbsp; <a href="https://github.com/DrFrezze71">DrFrezze71</a> */}
-						</p>{" "}
-					</div>
-				)}
-
-
-
+					<p className="time">GODZINA: {screen.time}</p>
 				</div>
-        	</div>
-      </div>
-	  </>
+			</div>
+			<div className="pipe"></div>
+		</div>
 	);
 }
 export default Tabel;

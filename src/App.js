@@ -25,8 +25,14 @@ function App() {
 					<li>
 						<NavLink to="/">🗺️Map</NavLink>
 					</li>
-					<li>🚌Transfers</li>
-					<li>🆘Help</li>
+					<li>
+						<a
+							href="https://github.com/kacpep/ztm-vehicles"
+							target="blank"
+							rel="noopener noreferrer">
+							⚒️Github
+						</a>
+					</li>
 				</ul>
 				<div
 					className="arrow--down arrow"
@@ -39,7 +45,7 @@ function App() {
 			<Routes>
 				<Route
 					path="/"
-					element={<Map setID={setBusID}/>}
+					element={<Map setID={setBusID} />}
 				/>
 				<Route
 					path="/tabel"

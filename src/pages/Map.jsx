@@ -4,7 +4,7 @@ import { useEffect, useMemo, useState, useCallback } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { GoogleMap, Marker, InfoWindow, useLoadScript } from "@react-google-maps/api";
 
-const url = "http://127.0.0.1:4000";
+const url = "https://api.ztm.kacpep.dev";
 
 function Map({ setID }) {
 	const [busStop, setBusStop] = useState([]);
@@ -15,7 +15,7 @@ function Map({ setID }) {
 	const navigate = useNavigate();
 
 	const { isLoaded } = useLoadScript({
-		googleMapsApiKey: null,
+		googleMapsApiKey: "AIzaSyDzZi2AoOvwcVeLHX75wairGuenyRlDeKw",
 	});
 	const center = useMemo(() => ({ lat: 50.041124423263156, lng: 21.999090892052912 }), []);
 	useEffect(() => {
