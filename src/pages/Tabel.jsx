@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import "../assets/css/Tabel.css";
 import { useCookies } from "react-cookie";
 
-const url = "http://127.0.0.1";
+const url = "http://127.0.0.1:4000";
 
 function Tabel({ busID }) {
 	const [cookies, setCookie] = useCookies(["busID"]);

@@ -4,7 +4,7 @@ import { useEffect, useMemo, useState, useCallback } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { GoogleMap, Marker, InfoWindow, useLoadScript } from "@react-google-maps/api";
 
-const url = "http://127.0.0.1";
+const url = "http://127.0.0.1:4000";
 
 function Map({ setID }) {
 	const [busStop, setBusStop] = useState([]);
@@ -95,7 +95,7 @@ function Map({ setID }) {
 													}}
 													className="button-9"
 													id={stop.id}>
-													Show Tabel
+													Pokaż tablice
 												</button>
 											</>
 										</InfoWindow>

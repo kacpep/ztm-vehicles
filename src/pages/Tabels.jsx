@@ -4,7 +4,7 @@ import { useCookies } from "react-cookie";
 
 import "../assets/css/Tabels.css";
 
-const url = "http://127.0.0.1";
+const url = "http://127.0.0.1:4000";
 
 function Tabels({ setID }) {
 	const [cookies, setCookie] = useCookies(["busID", "favoritesBusStops"]);
@@ -60,19 +60,19 @@ function Tabels({ setID }) {
 
 	return (
 		<div className="allTabels__box content">
-			<h2>All bus stops 🚏</h2>
+			<h2>Wszyskie tablice przystankowe 🚏</h2>
 			<input
 				id="searchBusStop"
 				type="text"
 				onInput={() => {
 					searching();
 				}}
-				placeholder="🔎 Search for names.."
-				title="Type in a name"
+				placeholder="🔎 Wpisz nazwe przystanku.."
+				title="Wpisz nazwe przystanku"
 			/>
 			{favoritesBusStops && favoritesBusStops.length ? (
 				<>
-					<h3>Favorite ⭐</h3>
+					<h3>Ulubione ⭐</h3>
 					<ul className="favoritBusStops">
 						{favoritesBusStops.map((stop, index) => (
 							<li

@@ -20,10 +20,10 @@ function App() {
 						}
 					}}>
 					<li>
-						<NavLink to="/tabels">🚏Tabels</NavLink>
+						<NavLink to="/tabels">🚏 Tablice</NavLink>
 					</li>
 					<li>
-						<NavLink to="/">🗺️Map</NavLink>
+						<NavLink to="/">🗺️Mapa przystanków</NavLink>
 					</li>
 					<li>
 						<a
