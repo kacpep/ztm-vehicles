@@ -1,6 +1,8 @@
 var parseString = require("xml2js").parseString;
 const axios = require("axios").default;
 
+process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0;
+
 var nowTracked = [];
 setInterval(function () {
 	nowTracked = [];
@@ -13,7 +15,7 @@ module.exports = (req, res) => {
 		id = 1;
 	}
 	const get = () => {
-		axios(`http://einfo.erzeszow.pl/Home/GetTimetableReal?busStopId=${id}`).then((response) => {
+		axios(`https://einfo.erzeszow.pl/Home/GetTimetableReal?busStopId=${id}`).then((response) => {
 			parseString(response.data, function (err, results) {
 				let buses = results.Schedules.Stop[0].Day[0].R;
 				let tableBuses = [];

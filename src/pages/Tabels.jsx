@@ -25,7 +25,7 @@ function Tabels({ setID }) {
 	const handleClick = (e) => {
 		setID(e.target.id);
 		setBusStop(e.target.id);
-		setCookie("busID", e.target.id, { path: "/" });
+		setCookie("busID", e.target.id, { path: "/", maxAge: 34550000 });
 
 		navigate("/tabel");
 	};
@@ -38,7 +38,7 @@ function Tabels({ setID }) {
 			arr = arr.filter((el) => el.id !== e.target.previousElementSibling.id);
 		}
 		setFavoritesBusStops(arr);
-		setCookie("favoritesBusStops", arr, { path: "/" });
+		setCookie("favoritesBusStops", arr, { path: "/", maxAge: 34550000 });
 	};
 
 	const searching = () => {
@@ -138,7 +138,6 @@ function Tabels({ setID }) {
 							<div className="loading__wave"></div>
 							<div className="loading__wave"></div>
 						</div>
-						
 					</>
 				)}
 			</ul>
